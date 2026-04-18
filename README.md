@@ -1,17 +1,19 @@
 # 免费开源 Linux, Mac, Windows 软件精选合集
- 
-> 仅收录开源软件（OSS）或提供免费版本的商业工具  
+
+> 仅收录开源软件（OSS）或提供免费版本的商业工具
 
 ---
 
 ## 目录
 
-- [开发工具](#开发工具)
-  - [代码编辑器与 IDE](#代码编辑器与-ide)
-  - [终端与命令行](#终端与命令行)
-  - [版本控制](#版本控制)
-  - [数据库工具](#数据库工具)
-  - [API 开发与网络分析](#api-开发与网络分析)
+- [系统与实用工具](#系统与实用工具)
+  - [系统监控与清理](#系统监控与清理)
+  - [文件管理](#文件管理)
+  - [安全与隐私](#安全与隐私)
+- [网络与通讯](#网络与通讯)
+  - [浏览器](#浏览器)
+  - [下载工具](#下载工具)
+  - [通讯协作](#通讯协作)
 - [生产力工具](#生产力工具)
   - [笔记与知识管理](#笔记与知识管理)
   - [待办事项与时间管理](#待办事项与时间管理)
@@ -21,24 +23,22 @@
   - [图像与图形设计](#图像与图形设计)
   - [视频与音频](#视频与音频)
   - [截图与录屏](#截图与录屏)
-- [系统与实用工具](#系统与实用工具)
-  - [系统监控与清理](#系统监控与清理)
-  - [文件管理](#文件管理)
-  - [安全与隐私](#安全与隐私)
-- [网络与通讯](#网络与通讯)
-  - [浏览器](#浏览器)
-  - [下载工具](#下载工具)
-  - [通讯协作](#通讯协作)
 - [办公与阅读](#办公与阅读)
+- [Markdown 编辑器](#markdown-编辑器)
+  - [所见即所得（WYSIWYG）编辑器](#所见即所得wysiwyg编辑器)
+  - [代码优先编辑器](#代码优先编辑器)
+  - [Markdown 预览与转换工具](#markdown-预览与转换工具)
 - [AI 工具与助手](#ai-工具与助手)
   - [本地 AI 模型运行工具](#本地-ai-模型运行工具)
   - [AI 编程助手（开源/免费）](#ai-编程助手开源免费)
   - [AI 命令行工具](#ai-命令行工具)
   - [AI 效率工具](#ai-效率工具)
-- [Markdown 编辑器](#markdown-编辑器)
-  - [所见即所得（WYSIWYG）编辑器](#所见即所得wysiwyg编辑器)
-  - [代码优先编辑器](#代码优先编辑器)
-  - [Markdown 预览与转换工具](#markdown-预览与转换工具)
+- [开发工具](#开发工具)
+  - [代码编辑器与 IDE](#代码编辑器与-ide)
+  - [终端与命令行](#终端与命令行)
+  - [版本控制](#版本控制)
+  - [数据库工具](#数据库工具)
+  - [API 开发与网络分析](#api-开发与网络分析)
 - [命令行工具](#命令行工具)
   - [终端增强与 Shell 工具](#终端增强与-shell-工具)
   - [开发命令行工具](#开发命令行工具)
@@ -47,95 +47,138 @@
 
 ---
 
-## 开发工具
+## 系统与实用工具
 
-### 代码编辑器与 IDE
-
-| 软件 | 简介 | 官网 / GitHub | 平台 |
-|------|------|---------------|------|
-| **Visual Studio Code** | 微软出品的免费开源编辑器，支持丰富插件生态 | [GitHub](https://github.com/Microsoft/vscode) / [官网](https://code.visualstudio.com/) | mac, win, linux |
-| **VSCodium** | VS Code 的社区驱动无追踪版本 | [GitHub](https://github.com/vscodium/vscodium) / [官网](https://vscodium.com/) | mac, win, linux |
-| **Zed** | 高性能多人协作代码编辑器，由 Atom 原作者开发 | [GitHub](https://github.com/zed-industries/zed) / [官网](https://zed.dev/) | mac, win, linux |
-| **CodeEdit** | 专为 macOS 打造的轻量原生编辑器 | [GitHub](https://github.com/CodeEditApp/CodeEdit) / [官网](https://www.codeedit.app/) | mac |
-| **Neovim** | Vim 的分支，专注于可扩展性和可用性 | [GitHub](https://github.com/neovim/neovim) / [官网](https://neovim.io/) | mac, win, linux |
-| **CotEditor** | 轻量级 macOS 原生纯文本编辑器 | [GitHub](https://github.com/coteditor/CotEditor/) / [官网](https://coteditor.com) | mac |
-| **TextMate** | 将 macOS 理念带入编辑器世界的经典工具 | [GitHub](https://github.com/textmate/textmate) / [官网](https://macromates.com) | mac |
-| **Brackets** | 专为 Web 设计打造的开源编辑器 | [GitHub](https://github.com/brackets-cont/brackets/) / [官网](http://brackets.io) | mac, win, linux |
-| **Lapce** | 基于 Rust 的闪电般快速代码编辑器 | [GitHub](https://github.com/lapce/lapce) / [官网](https://lapce.dev/) | mac, win, linux |
-| **Helix** | 后现代模态文本编辑器，类似 Vim | [GitHub](https://github.com/helix-editor/helix/) / [官网](https://helix-editor.com/) | mac, win, linux |
-| **Emacs** | 经典的 Unix 文本编辑器，可扩展为 IDE | [GitHub](https://git.savannah.gnu.org/cgit/) / [官网](https://www.gnu.org/software/emacs/) | mac, win, linux |
-| **LiteEdit** | Swift 与 AppKit 构建的轻量编辑器，体积不足 1MB | [GitHub](https://github.com/arietan/lite-edit) / [官网](https://arietan.github.io/lite-edit/) | mac |
-| **Spyder** | 面向科学计算的 Python IDE | [GitHub](https://github.com/spyder-ide/spyder) / [官网](https://www.spyder-ide.org/) | mac, win, linux |
-| **Eclipse** | 老牌开源 IDE，Java 开发首选 | [GitHub](https://github.com/eclipse) / [官网](https://www.eclipse.org) | mac, win, linux |
-| **NetBeans** | Apache 维护的免费开源 IDE | [GitHub](https://github.com/apache/netbeans) / [官网](https://netbeans.apache.org/) | mac, win, linux |
-| **IntelliJ IDEA Community** | JetBrains 出品的 Java IDE 社区免费版 | [官网](https://www.jetbrains.com/idea/) | mac, win, linux |
-| **PyCharm Community** | Python IDE 社区免费版 | [官网](https://www.jetbrains.com/pycharm/) | mac, win, linux |
-| **Android Studio** | 官方 Android 开发 IDE | [GitHub](https://github.com/android) / [官网](https://developer.android.com/studio) | mac, win, linux |
-| **Xcode** | Apple 官方 iOS/macOS 开发环境 | [App Store](https://apps.apple.com/app/id497799835) | mac |
-
-### 终端与命令行
+### 系统监控与清理
 
 | 软件 | 简介 | 官网 / GitHub | 平台 |
 |------|------|---------------|------|
-| **iTerm2** | macOS 上最强大的终端模拟器 | [GitHub](https://github.com/gnachman/iTerm2) / [官网](https://iterm2.com) | mac |
-| **Alacritty** | 跨平台 GPU 加速终端模拟器 | [GitHub](https://github.com/jwilm/alacritty) / [官网](https://alacritty.org) | mac, win, linux |
-| **Ghostty** | 高速 GPU 加速终端，支持原生 UI | [GitHub](https://github.com/ghostty-org/ghostty) / [官网](https://ghostty.org) | mac, linux |
-| **WezTerm** | Rust 实现的 GPU 加速跨平台终端 | [GitHub](https://github.com/wez/wezterm) / [官网](https://wezfurlong.org/wezterm/) | mac, win, linux |
-| **Kitty** | 功能丰富的 GPU 终端模拟器 | [GitHub](https://github.com/kovidgoyal/kitty) / [官网](https://sw.kovidgoyal.net/kitty/) | mac, linux |
-| **Hyper** | 基于 Web 技术构建的终端 | [GitHub](https://github.com/zeit/hyper) / [官网](https://hyper.is) | mac, win, linux |
-| **Tabby** | 现代化终端工具，支持 SSH 和 SFTP | [GitHub](https://github.com/Eugeny/tabby) / [官网](https://tabby.sh) | mac, win, linux |
-| **Wave** | 内置文件预览和 AI 工具的终端 | [GitHub](https://github.com/wavetermdev/waveterm) / [官网](https://www.waveterm.dev) | mac, win, linux |
-| **Homebrew** | macOS 缺失的软件包管理器 | [GitHub](https://github.com/Homebrew/brew/) / [官网](https://brew.sh/) | mac |
-| **MacPorts** | 开源软件包管理与安装系统 | [GitHub](https://github.com/macports/) / [官网](https://www.macports.org/) | mac |
+| **Stats** | 菜单栏免费系统监视器 | [GitHub](https://github.com/exelban/stats) | mac |
+| **eul** | 菜单栏系统信息监控（Swift 编写） | [GitHub](https://github.com/gao-sun/eul) | mac |
+| **iStat Menus** | 高级系统监控（免费版有限制） | [官网](https://bjango.com/mac/istatmenus/) | mac |
+| **MenuMeters** | CPU、内存、磁盘与网络监控工具集 | [GitHub](https://github.com/yujitach/MenuMeters) | mac |
+| **coconutBattery** | Mac 电池信息与统计 | [官网](https://www.coconut-flavour.com/coconutbattery/) | mac |
+| **AlDente** | MacBook 电池充电限制器 | [GitHub](https://github.com/davidwernhart/AlDente) / [官网](https://apphousekitchen.com/) | mac |
+| **KeepingYouAwake** | 防止 Mac 进入睡眠状态 | [GitHub](https://github.com/newmarcel/KeepingYouAwake) | mac |
+| **Amphetamine** | 保持 Mac 常亮 | [App Store](https://apps.apple.com/app/amphetamine/id937984704) | mac |
+| **MonitorControl** | 控制外接显示器亮度与音量 | [GitHub](https://github.com/MonitorControl/MonitorControl) | mac |
+| **Lunar** | 智能调节外接显示器亮度 | [GitHub](https://github.com/alin23/Lunar) / [官网](https://lunar.fyi/) | mac |
+| **OnyX** | 系统维护、清理与隐藏设置配置 | [官网](https://www.titanium-software.fr/en/onyx.html) | mac |
+| **AppCleaner** | 彻底卸载应用 | [官网](http://freemacsoft.net/appcleaner/) | mac |
+| **Pearcleaner** | 免费开源的 mac 应用清理器 | [GitHub](https://github.com/alienator88/Pearcleaner) / [官网](https://itsalin.com/appInfo/?id=pearcleaner) | mac |
+| **PureMac** | 无遥测的开源 macOS 清理工具 | [GitHub](https://github.com/momenbasel/PureMac) | mac |
+| **Cleaner for Xcode** | 清理 Xcode 无用文件 | [GitHub](https://github.com/waylybaye/XcodeCleaner-SwiftUI) | mac |
+| **GrandPerspective** | 用树状图可视化磁盘占用 | [SourceForge](https://sourceforge.net/projects/grandperspectiv/) / [官网](https://grandperspectiv.sourceforge.net) | mac |
+| **DaisyDisk** | 磁盘占用分析与清理（免费扫描） | [官网](https://daisydiskapp.com/) | mac |
+| **OmniDiskSweeper** | 按大小扫描文件快速定位空间占用 | [官网](https://www.omnigroup.com/more) | mac |
+| **Mounty** | 以读写模式重新挂载 NTFS 卷 | [官网](http://enjoygineering.com/mounty/) | mac |
+| **Paragon NTFS** | NTFS 读写驱动（免费版有限制） | [官网](https://www.paragon-software.com/home/ntfs-mac/) | mac |
+| **gfxCardStatus** | 监控显卡使用与电池影响 | [GitHub](https://github.com/codykrieger/gfxCardStatus) / [官网](https://gfx.io/) | mac |
+| **RDM** | 轻松设置 Retina 显示器未支持分辨率 | [GitHub](https://github.com/avibrazil/RDM) | mac |
+| **Gray** | 按应用切换浅色/深色模式 | [GitHub](https://github.com/zenangst/Gray) | mac |
+| **f.lux** | 根据时间自动调节屏幕色温 | [官网](https://justgetflux.com/) | mac, win, linux |
+| **Shifty** | 增强 Night Shift 控制 | [GitHub](https://github.com/thompsonate/Shifty) / [官网](http://shifty.natethompson.io) | mac |
+| **Grayscale Mode** | 菜单栏切换灰度滤镜 | [GitHub](https://github.com/rkbhochalya/grayscale-mode) | mac |
 
-### 版本控制
-
-| 软件 | 简介 | 官网 / GitHub | 平台 |
-|------|------|---------------|------|
-| **GitHub Desktop** | GitHub 官方图形客户端 | [GitHub](https://github.com/desktop/desktop) / [官网](https://desktop.github.com/) | mac, win |
-| **GitUp** | 简单强大的 Git 客户端 | [GitHub](https://github.com/git-up/GitUp) / [官网](http://gitup.co/) | mac |
-| **Fork** | 快速友好的 Git 客户端 | [官网](https://git-fork.com/) | mac, win |
-| **SourceTree** | 免费的 Git 和 Mercurial 客户端 | [官网](https://www.sourcetreeapp.com/) | mac, win |
-| **GitButler** | 支持并行分支和 AI 集成的版本控制工具 | [GitHub](https://github.com/gitbutlerapp/gitbutler) / [官网](https://gitbutler.com/) | mac, win, linux |
-| **Git Cola** | 轻量级 Git GUI 客户端 | [GitHub](https://github.com/git-cola/git-cola) / [官网](https://git-cola.github.io/) | mac, win, linux |
-| **RelaGit** | 优雅的图形化版本控制工具 | [GitHub](https://github.com/relagit/relagit) / [官网](https://rela.dev/) | mac, win, linux |
-| **Tempo** | 带 AI 辅助的 GUI Git 客户端 | [GitHub](https://github.com/maoyama/Tempo) | mac |
-
-### 数据库工具
-
-| 软件 | 简介 | 官网 / GitHub | 平台 |
-|------|------|---------------|------|
-| **DBeaver** | 通用 SQL 客户端和数据库管理工具，支持 100+ 种数据库 | [GitHub](https://github.com/dbeaver/dbeaver) / [官网](https://dbeaver.io/) | mac, win, linux |
-| **Beekeeper Studio** | 流畅的 SQL 编辑器与数据库管理器，界面现代优雅 | [GitHub](https://github.com/beekeeper-studio/beekeeper-studio) / [官网](https://www.beekeeperstudio.io) | mac, win, linux |
-| **Chat2DB** | AI 驱动的开源数据库管理工具，支持自然语言转 SQL | [GitHub](https://github.com/codePhiliaX/Chat2DB) / [官网](https://chat2db.ai/zh-CN) | mac, win, linux |
-| **Postgres.app** | macOS 上最简单的 PostgreSQL 入门方式 | [GitHub](https://github.com/PostgresApp/PostgresApp) / [官网](http://postgresapp.com/) | mac |
-| **DB Browser for SQLite** | SQLite 数据库的官方可视化管理工具 | [GitHub](https://github.com/sqlitebrowser/sqlitebrowser) / [官网](http://sqlitebrowser.org/) | mac, win, linux |
-| **TablePlus** | 现代原生数据库管理工具（免费版有限制） | [官网](https://tableplus.com/) | mac, win, linux |
-| **TablePro** | AI 辅助的 SQL 编辑器 | [GitHub](https://github.com/datlechin/TablePro) | mac, win, linux |
-| **Redis Insight** | Redis 官方可视化浏览与调试工具 | [官网](https://redis.io/insight/) | mac, win, linux |
-| **MongoDB Compass** | MongoDB 官方 GUI | [官网](https://www.mongodb.com/products/compass) | mac, win, linux |
-| **Neo4j Desktop** | 领先的图数据库管理工具 | [GitHub](https://github.com/neo4j/neo4j) / [官网](https://neo4j.com) | mac, win, linux |
-| **Rainfrog** | 轻量级终端数据库管理 TUI，支持 Vim 键位 | [GitHub](https://github.com/achristmascarl/rainfrog) | mac, win, linux |
-| **HeidiSQL** | 专注于 MySQL/MariaDB 的轻量级客户端 | [GitHub](https://github.com/HeidiSQL/HeidiSQL) / [官网](https://www.heidisql.com/) | win, linux (Wine) |
-| **MySQL Workbench** | 官方 MySQL 管理工具 | [官网](https://www.mysql.com/products/workbench/) | mac, win, linux |
-| **Sequel Ace** | MySQL 与 MariaDB 数据库管理工具 | [GitHub](https://github.com/Sequel-Ace/Sequel-Ace) / [官网](https://sequel-ace.com/) | mac |
-| **Sequel Pro** | 经典的 macOS MySQL 管理工具 | [GitHub](https://github.com/sequelpro/sequelpro) / [官网](http://www.sequelpro.com/) | mac |
-
-### API 开发与网络分析
+### 文件管理
 
 | 软件 | 简介 | 官网 / GitHub | 平台 |
 |------|------|---------------|------|
-| **Bruno** | 离线优先、Git 友好的开源 API 客户端 | [官网](https://www.usebruno.com/) / [GitHub](https://github.com/usebruno/bruno) | mac, win, linux |
-| **Hoppscotch** | 轻量快速的 API 调试工具 | [GitHub](https://github.com/hoppscotch/hoppscotch) / [官网](https://hoppscotch.io) | mac, win, linux |
-| **Insomnia** | 直观的跨平台 REST API 客户端 | [GitHub](https://github.com/getinsomnia/insomnia) / [官网](https://insomnia.rest/) | mac, win, linux |
-| **Postman** | API 开发协作平台（免费版） | [官网](https://www.getpostman.com) | mac, win, linux |
-| **HTTPie** | 人性化的命令行 HTTP 客户端 | [官网](https://httpie.io/) / [GitHub](https://github.com/httpie/httpie) | mac, win, linux |
-| **Yaak** | 现代 API 客户端，支持多协议和 Git 集成 | [GitHub](https://github.com/mountain-loop/yaak) / [官网](https://yaak.app) | mac, win, linux |
-| **Reqable** | 下一代 API 开发工具与调试代理 | [官网](https://reqable.com) | mac, win, linux |
-| **Wireshark** | 全球最流行的网络协议分析器 | [GitHub](https://github.com/wireshark/wireshark) / [官网](https://www.wireshark.org) | mac, win, linux |
-| **mitmproxy** | 交互式 HTTPS 拦截代理 | [GitHub](https://github.com/mitmproxy/mitmproxy) / [官网](https://mitmproxy.org/) | mac, win, linux |
-| **Proxyman** | 现代直观的 HTTP 调试代理 | [官网](https://proxyman.app) | mac |
-| **Sniffnet** | 舒适监控网络流量的应用 | [GitHub](https://github.com/GyulyVGC/sniffnet) / [官网](https://www.sniffnet.net) | mac, win, linux |
+| **Keka** | 开源压缩与解压工具，支持多种格式 | [官网](https://www.keka.io) / [App Store](https://apps.apple.com/app/keka/id470158793) | mac |
+| **The Unarchiver** | 解压多种归档格式 | [官网](https://theunarchiver.com/) / [App Store](https://apps.apple.com/app/the-unarchiver/id425424353) | mac |
+| **muCommander** | 轻量级双窗格文件管理器 | [GitHub](https://github.com/mucommander/mucommander) / [官网](http://www.mucommander.com) | mac, win, linux |
+| **Marta** | Swift 编写的 macOS 文件管理器 | [官网](https://marta.sh) | mac |
+| **Modal File Manager** | Vim 风格热键的双窗格文件管理器 | [GitHub](https://github.com/raguay/ModalFileManager/) | mac |
+| **AppPorts** | 将应用移至外置存储并保持启动链接 | [GitHub](https://github.com/wzh4869/AppPorts) | mac |
+| **Fileside** | 现代平铺文件管理器，无限窗格 | [官网](https://www.fileside.app) | mac, win, linux |
+| **Folders File Manager** | 可展开文件夹树的文件管理器 | [官网](https://foldersapp.dev) | mac |
+| **Rapidmg** | 一键从 DMG 提取应用到 Applications | [App Store](https://apps.apple.com/app/rapidmg/id6451349778) | mac |
+
+### 安全与隐私
+
+| 软件 | 简介 | 官网 / GitHub | 平台 |
+|------|------|---------------|------|
+| **Bitwarden** | 开源跨平台密码管理器 | [GitHub](https://github.com/bitwarden) / [官网](https://bitwarden.com) | mac, win, linux |
+| **KeePassXC** | 免费开源跨平台密码管理器 | [GitHub](https://github.com/keepassxreboot/keepassxc) / [官网](https://keepassxc.org/) | mac, win, linux |
+| **MacPass** | 开源 KeePass macOS 客户端 | [GitHub](https://github.com/mstarke/MacPass) / [官网](https://macpass.github.io/) | mac |
+| **Strongbox** | 兼容 KeePass 的密码管理器 | [GitHub](https://github.com/strongbox-password-safe/Strongbox) / [官网](https://strongboxsafe.com/) | mac, ios |
+| **Keeweb** | 跨平台 KeePass 兼容密码管理器 | [GitHub](https://github.com/keeweb/keeweb) / [官网](https://keeweb.info/) | mac, win, linux |
+| **Swifty** | 离线优先的跨平台密码管理器 | [GitHub](https://github.com/swiftyapp/swifty) / [官网](https://getswifty.pro/) | mac, win, linux |
+| **Cryptomator** | 云端文件客户端加密工具 | [GitHub](https://github.com/cryptomator/cryptomator/) / [官网](https://cryptomator.org/) | mac, win, linux |
+| **Deadbolt** | 开源文件加密工具 | [GitHub](https://github.com/alichtman/deadbolt) | mac, win, linux |
+| **VeraCrypt** | 免费开源磁盘加密软件 | [官网](https://veracrypt.fr) | mac, win, linux |
+| **LuLu** | 免费 macOS 防火墙，阻止未授权出站流量 | [GitHub](https://github.com/objective-see/LuLu) / [官网](https://objective-see.com/products/lulu.html) | mac |
+| **Pareto Security** | 自动审计 Mac 基础安全配置 | [GitHub](https://github.com/ParetoSecurity/pareto-mac) / [官网](https://paretosecurity.com/) | mac |
+| **LockDown** | 审计和修复安全配置的开放工具 | [GitHub](https://bitbucket.org/objective-see/lockdown) / [官网](https://objective-see.com/products/lockdown.html) | mac |
+| **BlockBlock** | 监控持久化安装行为 | [GitHub](https://github.com/objective-see/BlockBlock) / [官网](https://objective-see.com/products/blockblock.html) | mac |
+| **KnockKnock** | 查看系统持久化安装项 | [GitHub](https://github.com/objective-see/KnockKnock) / [官网](https://objective-see.com/products/knockknock.html) | mac |
+| **OverSight** | 监控麦克风和摄像头访问 | [GitHub](https://github.com/objective-see/OverSight) / [官网](https://objective-see.com/products/oversight.html) | mac |
+| **Santa** | 二进制文件白名单/黑名单系统 | [GitHub](https://github.com/northpolesec/santa) / [官网](https://northpole.security/) | mac |
+| **Suspicious Package** | 检查 macOS 安装包内容 | [官网](https://www.mothersruin.com/software/SuspiciousPackage/) | mac |
+| **Malwarebytes** | 恶意软件扫描与移除（免费版） | [官网](https://www.malwarebytes.com/mac-download/) | mac, win |
+| **LinkLiar** | Wi-Fi 和以太网 MAC 地址伪装 | [GitHub](https://github.com/halo/LinkLiar) / [官网](http://halo.github.io/LinkLiar) | mac |
+| **swiftGuard** | 保护 USB 端口未授权访问 | [GitHub](https://github.com/Lennolium/swiftGuard) | mac |
+| **NoxKey** | 基于钥匙串的 API 密钥管理器 | [GitHub](https://github.com/No-Box-Dev/Noxkey) | mac |
+
+---
+
+## 网络与通讯
+
+### 浏览器
+
+| 软件 | 简介 | 官网 / GitHub | 平台 |
+|------|------|---------------|------|
+| **Firefox** | Mozilla 开发的免费开源浏览器 | [官网](https://www.firefox.com/) / [Mercurial](https://hg.mozilla.org/) | mac, win, linux |
+| **Brave** | 注重隐私与速度的浏览器 | [GitHub](https://github.com/brave/brave-browser/) / [官网](https://brave.com/) | mac, win, linux |
+| **Chromium** | Chrome 背后的开源浏览器项目 | [官网](https://www.chromium.org/Home) | mac, win, linux |
+| **ungoogled-chromium** | 移除 Google 依赖的 Chromium | [GitHub](https://github.com/ungoogled-software/ungoogled-chromium) | mac, win, linux |
+| **Tor Browser** | 专为匿名浏览设计的隐私浏览器 | [GitLab](https://gitlab.torproject.org/tpo/applications/tor-browser/) / [官网](https://www.torproject.org/) | mac, win, linux |
+| **Mullvad Browser** | 专注反指纹保护的隐私浏览器 | [GitLab](https://gitlab.torproject.org/tpo/applications/mullvad-browser/) / [官网](https://mullvad.net/en/download/browser/) | mac, win, linux |
+| **LibreWolf** | 专注隐私、安全与自由的 Firefox 分支 | [GitLab](https://gitlab.com/librewolf-community) / [官网](https://librewolf.net) | mac, win, linux |
+| **Zen Browser** | 注重隐私与功能的开源浏览器 | [GitHub](https://github.com/zen-browser/desktop) / [官网](https://zen-browser.app/) | mac, win, linux |
+| **Min** | 快速极简的隐私保护浏览器 | [GitHub](https://github.com/minbrowser/min) / [官网](https://minbrowser.org/) | mac, win, linux |
+| **qutebrowser** | 键盘驱动的类 Vim 浏览器 | [GitHub](https://github.com/qutebrowser/qutebrowser) / [官网](https://www.qutebrowser.org/) | mac, win, linux |
+| **Vivaldi** | 注重用户控制的浏览器（免费） | [官网](https://vivaldi.com) | mac, win, linux |
+| **Orion** | 轻量 WebKit 浏览器，支持 Chrome/Firefox 扩展 | [官网](https://browser.kagi.com/) | mac |
+| **Arc** | 独特工作区式界面的浏览器（免费） | [官网](https://arc.net/) | mac |
+| **Safari** | Apple 原生浏览器 | [官网](https://www.apple.com/safari/) | mac, ios |
+
+### 下载工具
+
+| 软件 | 简介 | 官网 / GitHub | 平台 |
+|------|------|---------------|------|
+| **Transmission** | 简单轻量的跨平台 BT 客户端 | [GitHub](https://github.com/transmission/transmission) / [官网](https://www.transmissionbt.com/) | mac, win, linux |
+| **qBittorrent** | 开源 µTorrent 替代品 | [GitHub](https://github.com/qbittorrent/qBittorrent) / [官网](https://www.qbittorrent.org/) | mac, win, linux |
+| **Motrix** | 支持 HTTP/FTP/BT/磁力的下载管理器 | [GitHub](https://github.com/agalwood/Motrix) / [官网](https://motrix.app/) | mac, win, linux |
+| **Free Download Manager** | 强大的免费下载加速器 | [官网](https://www.freedownloadmanager.org/) | mac, win, linux |
+| **JDownloader** | 开源下载管理器 | [官网](http://jdownloader.org/) | mac, win, linux |
+| **Deluge** | 轻量级跨平台 BT 客户端 | [官网](https://deluge-torrent.org/) | mac, win, linux |
+| **aria2** | 轻量多协议命令行下载工具 | [GitHub](https://github.com/aria2) / [官网](https://aria2.github.io/) | mac, win, linux |
+| **youtube-dl** | 命令行视频下载工具 | [GitHub](https://github.com/rg3/youtube-dl/) | mac, win, linux |
+| **You-Get** | 下载网络媒体内容的命令行工具 | [GitHub](https://github.com/soimort/you-get) / [官网](https://you-get.org/) | mac, win, linux |
+| **XGetter** | 主流网站音视频下载器 | [官网](https://xgetter.com/) | mac |
+| **Neat Download Manager** | 轻量下载管理器 | [官网](https://www.neatdownloadmanager.com/) | mac, win |
+
+### 通讯协作
+
+| 软件 | 简介 | 官网 / GitHub | 平台 |
+|------|------|---------------|------|
+| **Telegram** | 注重速度与安全的消息应用 | [GitHub](https://github.com/overtake/TelegramSwift) / [官网](https://desktop.telegram.org) | mac, win, linux |
+| **Signal** | 快速、简单、安全的隐私通讯 | [GitHub](https://github.com/signalapp/Signal-Desktop) / [官网](https://signal.org/download/) | mac, win, linux |
+| **Element** | 安全去中心化通讯 | [GitHub](https://github.com/vector-im) / [官网](https://element.io/) | mac, win, linux |
+| **Mattermost** | 开源团队协作平台 | [GitHub](https://github.com/mattermost/mattermost) / [官网](https://mattermost.com/download/) | mac, win, linux |
+| **Keybase** | 安全群组、文件与聊天 | [GitHub](https://github.com/keybase) / [官网](https://keybase.io/) | mac, win, linux |
+| **Discord** | 语音、文字与社区聊天平台（免费版） | [官网](https://discordapp.com/) | mac, win, linux |
+| **Slack** | 团队协作通讯工具（免费版） | [官网](https://slack.com/downloads/mac) | mac, win, linux |
+| **LimeChat** | macOS 开源 IRC 客户端 | [GitHub](https://github.com/psychs/limechat) / [官网](http://limechat.net/mac/) | mac |
+| **Textual** | IRC 客户端 | [GitHub](https://github.com/Codeux-Software/Textual) / [App Store](https://apps.apple.com/app/textual-7/id1262957439) | mac |
+| **WeeChat** | 可扩展的命令行聊天客户端 | [官网](https://weechat.org/) | mac, win, linux |
+| **Caprine** | 隐私友好的第三方 Facebook Messenger | [GitHub](https://github.com/sindresorhus/caprine) | mac, win, linux |
+| **Adium** | 免费即时通讯应用 | [官网](https://adium.im/) | mac |
+| **Ferdium** | 整合多种 Web 应用于一处 | [GitHub](https://github.com/ferdium/ferdium-app) / [官网](https://ferdium.org/) | mac, win, linux |
+| **Rambox** | 整合常用 Web 应用于单一界面 | [GitHub](https://github.com/saenzramiro/rambox) / [官网](http://rambox.pro/) | mac, win, linux |
+| **Mastodon** | 自托管去中心化微博社区 | [GitHub](https://github.com/mastodon/mastodon) / [官网](https://mastodon.social/) | mac, win, linux |
+| **LocalSend** | 跨平台 AirDrop 开源替代品 | [GitHub](https://github.com/localsend/localsend) / [官网](https://localsend.org/) | mac, win, linux |
 
 ---
 
@@ -286,141 +329,6 @@
 
 ---
 
-## 系统与实用工具
-
-### 系统监控与清理
-
-| 软件 | 简介 | 官网 / GitHub | 平台 |
-|------|------|---------------|------|
-| **Stats** | 菜单栏免费系统监视器 | [GitHub](https://github.com/exelban/stats) | mac |
-| **eul** | 菜单栏系统信息监控（Swift 编写） | [GitHub](https://github.com/gao-sun/eul) | mac |
-| **iStat Menus** | 高级系统监控（免费版有限制） | [官网](https://bjango.com/mac/istatmenus/) | mac |
-| **MenuMeters** | CPU、内存、磁盘与网络监控工具集 | [GitHub](https://github.com/yujitach/MenuMeters) | mac |
-| **coconutBattery** | Mac 电池信息与统计 | [官网](https://www.coconut-flavour.com/coconutbattery/) | mac |
-| **AlDente** | MacBook 电池充电限制器 | [GitHub](https://github.com/davidwernhart/AlDente) / [官网](https://apphousekitchen.com/) | mac |
-| **KeepingYouAwake** | 防止 Mac 进入睡眠状态 | [GitHub](https://github.com/newmarcel/KeepingYouAwake) | mac |
-| **Amphetamine** | 保持 Mac 常亮 | [App Store](https://apps.apple.com/app/amphetamine/id937984704) | mac |
-| **MonitorControl** | 控制外接显示器亮度与音量 | [GitHub](https://github.com/MonitorControl/MonitorControl) | mac |
-| **Lunar** | 智能调节外接显示器亮度 | [GitHub](https://github.com/alin23/Lunar) / [官网](https://lunar.fyi/) | mac |
-| **OnyX** | 系统维护、清理与隐藏设置配置 | [官网](https://www.titanium-software.fr/en/onyx.html) | mac |
-| **AppCleaner** | 彻底卸载应用 | [官网](http://freemacsoft.net/appcleaner/) | mac |
-| **Pearcleaner** | 免费开源的 mac 应用清理器 | [GitHub](https://github.com/alienator88/Pearcleaner) / [官网](https://itsalin.com/appInfo/?id=pearcleaner) | mac |
-| **PureMac** | 无遥测的开源 macOS 清理工具 | [GitHub](https://github.com/momenbasel/PureMac) | mac |
-| **Cleaner for Xcode** | 清理 Xcode 无用文件 | [GitHub](https://github.com/waylybaye/XcodeCleaner-SwiftUI) | mac |
-| **GrandPerspective** | 用树状图可视化磁盘占用 | [SourceForge](https://sourceforge.net/projects/grandperspectiv/) / [官网](https://grandperspectiv.sourceforge.net) | mac |
-| **DaisyDisk** | 磁盘占用分析与清理（免费扫描） | [官网](https://daisydiskapp.com/) | mac |
-| **OmniDiskSweeper** | 按大小扫描文件快速定位空间占用 | [官网](https://www.omnigroup.com/more) | mac |
-| **Mounty** | 以读写模式重新挂载 NTFS 卷 | [官网](http://enjoygineering.com/mounty/) | mac |
-| **Paragon NTFS** | NTFS 读写驱动（免费版有限制） | [官网](https://www.paragon-software.com/home/ntfs-mac/) | mac |
-| **gfxCardStatus** | 监控显卡使用与电池影响 | [GitHub](https://github.com/codykrieger/gfxCardStatus) / [官网](https://gfx.io/) | mac |
-| **RDM** | 轻松设置 Retina 显示器未支持分辨率 | [GitHub](https://github.com/avibrazil/RDM) | mac |
-| **Gray** | 按应用切换浅色/深色模式 | [GitHub](https://github.com/zenangst/Gray) | mac |
-| **f.lux** | 根据时间自动调节屏幕色温 | [官网](https://justgetflux.com/) | mac, win, linux |
-| **Shifty** | 增强 Night Shift 控制 | [GitHub](https://github.com/thompsonate/Shifty) / [官网](http://shifty.natethompson.io) | mac |
-| **Grayscale Mode** | 菜单栏切换灰度滤镜 | [GitHub](https://github.com/rkbhochalya/grayscale-mode) | mac |
-
-### 文件管理
-
-| 软件 | 简介 | 官网 / GitHub | 平台 |
-|------|------|---------------|------|
-| **Keka** | 开源压缩与解压工具，支持多种格式 | [官网](https://www.keka.io) / [App Store](https://apps.apple.com/app/keka/id470158793) | mac |
-| **The Unarchiver** | 解压多种归档格式 | [官网](https://theunarchiver.com/) / [App Store](https://apps.apple.com/app/the-unarchiver/id425424353) | mac |
-| **muCommander** | 轻量级双窗格文件管理器 | [GitHub](https://github.com/mucommander/mucommander) / [官网](http://www.mucommander.com) | mac, win, linux |
-| **Marta** | Swift 编写的 macOS 文件管理器 | [官网](https://marta.sh) | mac |
-| **Modal File Manager** | Vim 风格热键的双窗格文件管理器 | [GitHub](https://github.com/raguay/ModalFileManager/) | mac |
-| **AppPorts** | 将应用移至外置存储并保持启动链接 | [GitHub](https://github.com/wzh4869/AppPorts) | mac |
-| **Fileside** | 现代平铺文件管理器，无限窗格 | [官网](https://www.fileside.app) | mac, win, linux |
-| **Folders File Manager** | 可展开文件夹树的文件管理器 | [官网](https://foldersapp.dev) | mac |
-| **Rapidmg** | 一键从 DMG 提取应用到 Applications | [App Store](https://apps.apple.com/app/rapidmg/id6451349778) | mac |
-
-### 安全与隐私
-
-| 软件 | 简介 | 官网 / GitHub | 平台 |
-|------|------|---------------|------|
-| **Bitwarden** | 开源跨平台密码管理器 | [GitHub](https://github.com/bitwarden) / [官网](https://bitwarden.com) | mac, win, linux |
-| **KeePassXC** | 免费开源跨平台密码管理器 | [GitHub](https://github.com/keepassxreboot/keepassxc) / [官网](https://keepassxc.org/) | mac, win, linux |
-| **MacPass** | 开源 KeePass macOS 客户端 | [GitHub](https://github.com/mstarke/MacPass) / [官网](https://macpass.github.io/) | mac |
-| **Strongbox** | 兼容 KeePass 的密码管理器 | [GitHub](https://github.com/strongbox-password-safe/Strongbox) / [官网](https://strongboxsafe.com/) | mac, ios |
-| **Keeweb** | 跨平台 KeePass 兼容密码管理器 | [GitHub](https://github.com/keeweb/keeweb) / [官网](https://keeweb.info/) | mac, win, linux |
-| **Swifty** | 离线优先的跨平台密码管理器 | [GitHub](https://github.com/swiftyapp/swifty) / [官网](https://getswifty.pro/) | mac, win, linux |
-| **Cryptomator** | 云端文件客户端加密工具 | [GitHub](https://github.com/cryptomator/cryptomator/) / [官网](https://cryptomator.org/) | mac, win, linux |
-| **Deadbolt** | 开源文件加密工具 | [GitHub](https://github.com/alichtman/deadbolt) | mac, win, linux |
-| **VeraCrypt** | 免费开源磁盘加密软件 | [官网](https://veracrypt.fr) | mac, win, linux |
-| **LuLu** | 免费 macOS 防火墙，阻止未授权出站流量 | [GitHub](https://github.com/objective-see/LuLu) / [官网](https://objective-see.com/products/lulu.html) | mac |
-| **Pareto Security** | 自动审计 Mac 基础安全配置 | [GitHub](https://github.com/ParetoSecurity/pareto-mac) / [官网](https://paretosecurity.com/) | mac |
-| **LockDown** | 审计和修复安全配置的开放工具 | [GitHub](https://bitbucket.org/objective-see/lockdown) / [官网](https://objective-see.com/products/lockdown.html) | mac |
-| **BlockBlock** | 监控持久化安装行为 | [GitHub](https://github.com/objective-see/BlockBlock) / [官网](https://objective-see.com/products/blockblock.html) | mac |
-| **KnockKnock** | 查看系统持久化安装项 | [GitHub](https://github.com/objective-see/KnockKnock) / [官网](https://objective-see.com/products/knockknock.html) | mac |
-| **OverSight** | 监控麦克风和摄像头访问 | [GitHub](https://github.com/objective-see/OverSight) / [官网](https://objective-see.com/products/oversight.html) | mac |
-| **Santa** | 二进制文件白名单/黑名单系统 | [GitHub](https://github.com/northpolesec/santa) / [官网](https://northpole.security/) | mac |
-| **Suspicious Package** | 检查 macOS 安装包内容 | [官网](https://www.mothersruin.com/software/SuspiciousPackage/) | mac |
-| **Malwarebytes** | 恶意软件扫描与移除（免费版） | [官网](https://www.malwarebytes.com/mac-download/) | mac, win |
-| **LinkLiar** | Wi-Fi 和以太网 MAC 地址伪装 | [GitHub](https://github.com/halo/LinkLiar) / [官网](http://halo.github.io/LinkLiar) | mac |
-| **swiftGuard** | 保护 USB 端口未授权访问 | [GitHub](https://github.com/Lennolium/swiftGuard) | mac |
-| **NoxKey** | 基于钥匙串的 API 密钥管理器 | [GitHub](https://github.com/No-Box-Dev/Noxkey) | mac |
-
----
-
-## 网络与通讯
-
-### 浏览器
-
-| 软件 | 简介 | 官网 / GitHub | 平台 |
-|------|------|---------------|------|
-| **Firefox** | Mozilla 开发的免费开源浏览器 | [官网](https://www.firefox.com/) / [Mercurial](https://hg.mozilla.org/) | mac, win, linux |
-| **Brave** | 注重隐私与速度的浏览器 | [GitHub](https://github.com/brave/brave-browser/) / [官网](https://brave.com/) | mac, win, linux |
-| **Chromium** | Chrome 背后的开源浏览器项目 | [官网](https://www.chromium.org/Home) | mac, win, linux |
-| **ungoogled-chromium** | 移除 Google 依赖的 Chromium | [GitHub](https://github.com/ungoogled-software/ungoogled-chromium) | mac, win, linux |
-| **Tor Browser** | 专为匿名浏览设计的隐私浏览器 | [GitLab](https://gitlab.torproject.org/tpo/applications/tor-browser/) / [官网](https://www.torproject.org/) | mac, win, linux |
-| **Mullvad Browser** | 专注反指纹保护的隐私浏览器 | [GitLab](https://gitlab.torproject.org/tpo/applications/mullvad-browser/) / [官网](https://mullvad.net/en/download/browser/) | mac, win, linux |
-| **LibreWolf** | 专注隐私、安全与自由的 Firefox 分支 | [GitLab](https://gitlab.com/librewolf-community) / [官网](https://librewolf.net) | mac, win, linux |
-| **Zen Browser** | 注重隐私与功能的开源浏览器 | [GitHub](https://github.com/zen-browser/desktop) / [官网](https://zen-browser.app/) | mac, win, linux |
-| **Min** | 快速极简的隐私保护浏览器 | [GitHub](https://github.com/minbrowser/min) / [官网](https://minbrowser.org/) | mac, win, linux |
-| **qutebrowser** | 键盘驱动的类 Vim 浏览器 | [GitHub](https://github.com/qutebrowser/qutebrowser) / [官网](https://www.qutebrowser.org/) | mac, win, linux |
-| **Vivaldi** | 注重用户控制的浏览器（免费） | [官网](https://vivaldi.com) | mac, win, linux |
-| **Orion** | 轻量 WebKit 浏览器，支持 Chrome/Firefox 扩展 | [官网](https://browser.kagi.com/) | mac |
-| **Arc** | 独特工作区式界面的浏览器（免费） | [官网](https://arc.net/) | mac |
-| **Safari** | Apple 原生浏览器 | [官网](https://www.apple.com/safari/) | mac, ios |
-
-### 下载工具
-
-| 软件 | 简介 | 官网 / GitHub | 平台 |
-|------|------|---------------|------|
-| **Transmission** | 简单轻量的跨平台 BT 客户端 | [GitHub](https://github.com/transmission/transmission) / [官网](https://www.transmissionbt.com/) | mac, win, linux |
-| **qBittorrent** | 开源 µTorrent 替代品 | [GitHub](https://github.com/qbittorrent/qBittorrent) / [官网](https://www.qbittorrent.org/) | mac, win, linux |
-| **Motrix** | 支持 HTTP/FTP/BT/磁力的下载管理器 | [GitHub](https://github.com/agalwood/Motrix) / [官网](https://motrix.app/) | mac, win, linux |
-| **Free Download Manager** | 强大的免费下载加速器 | [官网](https://www.freedownloadmanager.org/) | mac, win, linux |
-| **JDownloader** | 开源下载管理器 | [官网](http://jdownloader.org/) | mac, win, linux |
-| **Deluge** | 轻量级跨平台 BT 客户端 | [官网](https://deluge-torrent.org/) | mac, win, linux |
-| **aria2** | 轻量多协议命令行下载工具 | [GitHub](https://github.com/aria2) / [官网](https://aria2.github.io/) | mac, win, linux |
-| **youtube-dl** | 命令行视频下载工具 | [GitHub](https://github.com/rg3/youtube-dl/) | mac, win, linux |
-| **You-Get** | 下载网络媒体内容的命令行工具 | [GitHub](https://github.com/soimort/you-get) / [官网](https://you-get.org/) | mac, win, linux |
-| **XGetter** | 主流网站音视频下载器 | [官网](https://xgetter.com/) | mac |
-| **Neat Download Manager** | 轻量下载管理器 | [官网](https://www.neatdownloadmanager.com/) | mac, win |
-
-### 通讯协作
-
-| 软件 | 简介 | 官网 / GitHub | 平台 |
-|------|------|---------------|------|
-| **Telegram** | 注重速度与安全的消息应用 | [GitHub](https://github.com/overtake/TelegramSwift) / [官网](https://desktop.telegram.org) | mac, win, linux |
-| **Signal** | 快速、简单、安全的隐私通讯 | [GitHub](https://github.com/signalapp/Signal-Desktop) / [官网](https://signal.org/download/) | mac, win, linux |
-| **Element** | 安全去中心化通讯 | [GitHub](https://github.com/vector-im) / [官网](https://element.io/) | mac, win, linux |
-| **Mattermost** | 开源团队协作平台 | [GitHub](https://github.com/mattermost/mattermost) / [官网](https://mattermost.com/download/) | mac, win, linux |
-| **Keybase** | 安全群组、文件与聊天 | [GitHub](https://github.com/keybase) / [官网](https://keybase.io/) | mac, win, linux |
-| **Discord** | 语音、文字与社区聊天平台（免费版） | [官网](https://discordapp.com/) | mac, win, linux |
-| **Slack** | 团队协作通讯工具（免费版） | [官网](https://slack.com/downloads/mac) | mac, win, linux |
-| **LimeChat** | macOS 开源 IRC 客户端 | [GitHub](https://github.com/psychs/limechat) / [官网](http://limechat.net/mac/) | mac |
-| **Textual** | IRC 客户端 | [GitHub](https://github.com/Codeux-Software/Textual) / [App Store](https://apps.apple.com/app/textual-7/id1262957439) | mac |
-| **WeeChat** | 可扩展的命令行聊天客户端 | [官网](https://weechat.org/) | mac, win, linux |
-| **Caprine** | 隐私友好的第三方 Facebook Messenger | [GitHub](https://github.com/sindresorhus/caprine) | mac, win, linux |
-| **Adium** | 免费即时通讯应用 | [官网](https://adium.im/) | mac |
-| **Ferdium** | 整合多种 Web 应用于一处 | [GitHub](https://github.com/ferdium/ferdium-app) / [官网](https://ferdium.org/) | mac, win, linux |
-| **Rambox** | 整合常用 Web 应用于单一界面 | [GitHub](https://github.com/saenzramiro/rambox) / [官网](http://rambox.pro/) | mac, win, linux |
-| **Mastodon** | 自托管去中心化微博社区 | [GitHub](https://github.com/mastodon/mastodon) / [官网](https://mastodon.social/) | mac, win, linux |
-| **LocalSend** | 跨平台 AirDrop 开源替代品 | [GitHub](https://github.com/localsend/localsend) / [官网](https://localsend.org/) | mac, win, linux |
-
----
-
 ## 办公与阅读
 
 | 软件 | 简介 | 官网 / GitHub | 平台 |
@@ -449,6 +357,48 @@
 | **ElectronMail** | 非官方 ProtonMail 桌面客户端 | [GitHub](https://github.com/vladimiry/ElectronMail) | mac, win, linux |
 | **Foxmail** | 快速邮件客户端（免费） | [官网](http://www.foxmail.com/mac/en) | mac, win |
 | **Spark** | 智能邮件客户端（免费版） | [官网](https://sparkmailapp.com/) | mac, ios |
+
+---
+
+## Markdown 编辑器
+
+### 所见即所得（WYSIWYG）编辑器
+
+| 软件 | 简介 | 官网 / GitHub | 平台 |
+|------|------|---------------|------|
+| **MarkText** | 开源免费的 Typora 替代品，实时预览 | [GitHub](https://github.com/marktext/marktext) / [官网](https://www.marktext.cc/) | mac, win, linux |
+| **Typora** | 极简 Markdown 编辑器（1.0 前版本免费） | [官网](https://typora.io/) | mac, win, linux |
+| **Zettlr** | 面向学术写作的 Markdown 编辑器 | [GitHub](https://github.com/Zettlr/Zettlr) / [官网](https://www.zettlr.com/) | mac, win, linux |
+| **Notable** | 开源 Markdown 笔记应用 | [GitHub](https://github.com/notable/notable) / [官网](https://notable.app/) | mac, win, linux |
+| **Moeditor** | 简洁的双栏 Markdown 编辑器 | [GitHub](https://github.com/Moeditor/Moeditor) / [官网](https://moeditor.js.org/) | mac, win, linux |
+| **Abricotine** | 支持富文本预览的 Markdown 编辑器 | [GitHub](https://github.com/brrd/Abricotine) / [官网](http://abricotine.brrd.fr/) | mac, win, linux |
+| **MarkEdit** | 原生 macOS Markdown 编辑器 | [GitHub](https://github.com/MarkEdit-app/MarkEdit) | mac |
+| **Textinator** | 轻量级 Markdown 编辑器 | [GitHub](https://github.com/alecgorge/Textinator) | mac |
+| **Paper** | 极简 Markdown 写作应用 | [GitHub](https://github.com/wangdicoder/paper) | mac, win, linux |
+
+### 代码优先编辑器
+
+| 软件 | 简介 | 官网 / GitHub | 平台 |
+|------|------|---------------|------|
+| **Obsidian** | 本地化知识库，支持丰富插件（个人使用免费） | [官网](https://obsidian.md/) | mac, win, linux |
+| **Joplin** | 跨平台开源笔记与待办管理，支持 Markdown | [GitHub](https://github.com/laurent22/joplin) / [官网](https://joplinapp.org/) | mac, win, linux |
+| **Logseq** | 隐私优先的开源大纲笔记 | [GitHub](https://github.com/logseq/logseq) / [官网](https://logseq.com/) | mac, win, linux |
+| **VNote** | 开源 Markdown 笔记应用，拥有精致编辑器 | [GitHub](https://github.com/vnotex/vnote/) / [官网](https://app.vnote.fun/) | mac, win, linux |
+| **QOwnNotes** | 开源 Markdown 笔记与待办管理器 | [GitHub](https://github.com/pbek/QOwnNotes) / [官网](http://www.qownnotes.org/) | mac, win, linux |
+| **FSNotes** | 现代文件系统笔记管理器，原生 macOS/iOS | [GitHub](https://github.com/glushchenko/fsnotes) / [官网](https://fsnot.es/) | mac, ios |
+| **Inkdrop** | Markdown 笔记应用（免费试用） | [官网](https://www.inkdrop.app/) | mac, win, linux |
+| **Boost Note** | 面向开发者的 Markdown 笔记应用 | [GitHub](https://github.com/BoostIO/BoostNote-App) / [官网](https://boostnote.io/) | mac, win, linux |
+
+### Markdown 预览与转换工具
+
+| 软件 | 简介 | 官网 / GitHub | 平台 |
+|------|------|---------------|------|
+| **MacDown** | 开源 Markdown 编辑器，灵感来自 Mou | [GitHub](https://github.com/MacDownApp/macdown) / [官网](https://macdown.uranusjr.com/) | mac |
+| **Haroopad** | 跨平台 Markdown 编辑器 | [GitHub](https://github.com/rhiokim/haroopad) / [官网](http://pad.haroopress.com/) | mac, win, linux |
+| **Marp** | Markdown 演示文稿工具 | [GitHub](https://github.com/marp-team/marp) / [官网](https://marp.app/) | mac, win, linux |
+| **mdp** | 命令行 Markdown 演示工具 | [GitHub](https://github.com/visit1985/mdp) | mac, win, linux |
+| **glow** | 命令行 Markdown 阅读器 | [GitHub](https://github.com/charmbracelet/glow) | mac, win, linux |
+| **mdless** | 终端 Markdown 预览工具 | [GitHub](https://github.com/ttscoff/mdless) | mac, win, linux |
 
 ---
 
@@ -502,45 +452,95 @@
 
 ---
 
-## Markdown 编辑器
+## 开发工具
 
-### 所见即所得（WYSIWYG）编辑器
-
-| 软件 | 简介 | 官网 / GitHub | 平台 |
-|------|------|---------------|------|
-| **MarkText** | 开源免费的 Typora 替代品，实时预览 | [GitHub](https://github.com/marktext/marktext) / [官网](https://www.marktext.cc/) | mac, win, linux |
-| **Typora** | 极简 Markdown 编辑器（1.0 前版本免费） | [官网](https://typora.io/) | mac, win, linux |
-| **Zettlr** | 面向学术写作的 Markdown 编辑器 | [GitHub](https://github.com/Zettlr/Zettlr) / [官网](https://www.zettlr.com/) | mac, win, linux |
-| **Notable** | 开源 Markdown 笔记应用 | [GitHub](https://github.com/notable/notable) / [官网](https://notable.app/) | mac, win, linux |
-| **Moeditor** | 简洁的双栏 Markdown 编辑器 | [GitHub](https://github.com/Moeditor/Moeditor) / [官网](https://moeditor.js.org/) | mac, win, linux |
-| **Abricotine** | 支持富文本预览的 Markdown 编辑器 | [GitHub](https://github.com/brrd/Abricotine) / [官网](http://abricotine.brrd.fr/) | mac, win, linux |
-| **MarkEdit** | 原生 macOS Markdown 编辑器 | [GitHub](https://github.com/MarkEdit-app/MarkEdit) | mac |
-| **Textinator** | 轻量级 Markdown 编辑器 | [GitHub](https://github.com/alecgorge/Textinator) | mac |
-| **Paper** | 极简 Markdown 写作应用 | [GitHub](https://github.com/wangdicoder/paper) | mac, win, linux |
-
-### 代码优先编辑器
+### 代码编辑器与 IDE
 
 | 软件 | 简介 | 官网 / GitHub | 平台 |
 |------|------|---------------|------|
-| **Obsidian** | 本地化知识库，支持丰富插件（个人使用免费） | [官网](https://obsidian.md/) | mac, win, linux |
-| **Joplin** | 跨平台开源笔记与待办管理，支持 Markdown | [GitHub](https://github.com/laurent22/joplin) / [官网](https://joplinapp.org/) | mac, win, linux |
-| **Logseq** | 隐私优先的开源大纲笔记 | [GitHub](https://github.com/logseq/logseq) / [官网](https://logseq.com/) | mac, win, linux |
-| **VNote** | 开源 Markdown 笔记应用，拥有精致编辑器 | [GitHub](https://github.com/vnotex/vnote/) / [官网](https://app.vnote.fun/) | mac, win, linux |
-| **QOwnNotes** | 开源 Markdown 笔记与待办管理器 | [GitHub](https://github.com/pbek/QOwnNotes) / [官网](http://www.qownnotes.org/) | mac, win, linux |
-| **FSNotes** | 现代文件系统笔记管理器，原生 macOS/iOS | [GitHub](https://github.com/glushchenko/fsnotes) / [官网](https://fsnot.es/) | mac, ios |
-| **Inkdrop** | Markdown 笔记应用（免费试用） | [官网](https://www.inkdrop.app/) | mac, win, linux |
-| **Boost Note** | 面向开发者的 Markdown 笔记应用 | [GitHub](https://github.com/BoostIO/BoostNote-App) / [官网](https://boostnote.io/) | mac, win, linux |
+| **Visual Studio Code** | 微软出品的免费开源编辑器，支持丰富插件生态 | [GitHub](https://github.com/Microsoft/vscode) / [官网](https://code.visualstudio.com/) | mac, win, linux |
+| **VSCodium** | VS Code 的社区驱动无追踪版本 | [GitHub](https://github.com/vscodium/vscodium) / [官网](https://vscodium.com/) | mac, win, linux |
+| **Zed** | 高性能多人协作代码编辑器，由 Atom 原作者开发 | [GitHub](https://github.com/zed-industries/zed) / [官网](https://zed.dev/) | mac, win, linux |
+| **CodeEdit** | 专为 macOS 打造的轻量原生编辑器 | [GitHub](https://github.com/CodeEditApp/CodeEdit) / [官网](https://www.codeedit.app/) | mac |
+| **Neovim** | Vim 的分支，专注于可扩展性和可用性 | [GitHub](https://github.com/neovim/neovim) / [官网](https://neovim.io/) | mac, win, linux |
+| **CotEditor** | 轻量级 macOS 原生纯文本编辑器 | [GitHub](https://github.com/coteditor/CotEditor/) / [官网](https://coteditor.com) | mac |
+| **TextMate** | 将 macOS 理念带入编辑器世界的经典工具 | [GitHub](https://github.com/textmate/textmate) / [官网](https://macromates.com) | mac |
+| **Brackets** | 专为 Web 设计打造的开源编辑器 | [GitHub](https://github.com/brackets-cont/brackets/) / [官网](http://brackets.io) | mac, win, linux |
+| **Lapce** | 基于 Rust 的闪电般快速代码编辑器 | [GitHub](https://github.com/lapce/lapce) / [官网](https://lapce.dev/) | mac, win, linux |
+| **Helix** | 后现代模态文本编辑器，类似 Vim | [GitHub](https://github.com/helix-editor/helix/) / [官网](https://helix-editor.com/) | mac, win, linux |
+| **Emacs** | 经典的 Unix 文本编辑器，可扩展为 IDE | [GitHub](https://git.savannah.gnu.org/cgit/) / [官网](https://www.gnu.org/software/emacs/) | mac, win, linux |
+| **LiteEdit** | Swift 与 AppKit 构建的轻量编辑器，体积不足 1MB | [GitHub](https://github.com/arietan/lite-edit) / [官网](https://arietan.github.io/lite-edit/) | mac |
+| **Spyder** | 面向科学计算的 Python IDE | [GitHub](https://github.com/spyder-ide/spyder) / [官网](https://www.spyder-ide.org/) | mac, win, linux |
+| **Eclipse** | 老牌开源 IDE，Java 开发首选 | [GitHub](https://github.com/eclipse) / [官网](https://www.eclipse.org) | mac, win, linux |
+| **NetBeans** | Apache 维护的免费开源 IDE | [GitHub](https://github.com/apache/netbeans) / [官网](https://netbeans.apache.org/) | mac, win, linux |
+| **IntelliJ IDEA Community** | JetBrains 出品的 Java IDE 社区免费版 | [官网](https://www.jetbrains.com/idea/) | mac, win, linux |
+| **PyCharm Community** | Python IDE 社区免费版 | [官网](https://www.jetbrains.com/pycharm/) | mac, win, linux |
+| **Android Studio** | 官方 Android 开发 IDE | [GitHub](https://github.com/android) / [官网](https://developer.android.com/studio) | mac, win, linux |
+| **Xcode** | Apple 官方 iOS/macOS 开发环境 | [App Store](https://apps.apple.com/app/id497799835) | mac |
 
-### Markdown 预览与转换工具
+### 终端与命令行
 
 | 软件 | 简介 | 官网 / GitHub | 平台 |
 |------|------|---------------|------|
-| **MacDown** | 开源 Markdown 编辑器，灵感来自 Mou | [GitHub](https://github.com/MacDownApp/macdown) / [官网](https://macdown.uranusjr.com/) | mac |
-| **Haroopad** | 跨平台 Markdown 编辑器 | [GitHub](https://github.com/rhiokim/haroopad) / [官网](http://pad.haroopress.com/) | mac, win, linux |
-| **Marp** | Markdown 演示文稿工具 | [GitHub](https://github.com/marp-team/marp) / [官网](https://marp.app/) | mac, win, linux |
-| **mdp** | 命令行 Markdown 演示工具 | [GitHub](https://github.com/visit1985/mdp) | mac, win, linux |
-| **glow** | 命令行 Markdown 阅读器 | [GitHub](https://github.com/charmbracelet/glow) | mac, win, linux |
-| **mdless** | 终端 Markdown 预览工具 | [GitHub](https://github.com/ttscoff/mdless) | mac, win, linux |
+| **iTerm2** | macOS 上最强大的终端模拟器 | [GitHub](https://github.com/gnachman/iTerm2) / [官网](https://iterm2.com) | mac |
+| **Alacritty** | 跨平台 GPU 加速终端模拟器 | [GitHub](https://github.com/jwilm/alacritty) / [官网](https://alacritty.org) | mac, win, linux |
+| **Ghostty** | 高速 GPU 加速终端，支持原生 UI | [GitHub](https://github.com/ghostty-org/ghostty) / [官网](https://ghostty.org) | mac, linux |
+| **WezTerm** | Rust 实现的 GPU 加速跨平台终端 | [GitHub](https://github.com/wez/wezterm) / [官网](https://wezfurlong.org/wezterm/) | mac, win, linux |
+| **Kitty** | 功能丰富的 GPU 终端模拟器 | [GitHub](https://github.com/kovidgoyal/kitty) / [官网](https://sw.kovidgoyal.net/kitty/) | mac, linux |
+| **Hyper** | 基于 Web 技术构建的终端 | [GitHub](https://github.com/zeit/hyper) / [官网](https://hyper.is) | mac, win, linux |
+| **Tabby** | 现代化终端工具，支持 SSH 和 SFTP | [GitHub](https://github.com/Eugeny/tabby) / [官网](https://tabby.sh) | mac, win, linux |
+| **Wave** | 内置文件预览和 AI 工具的终端 | [GitHub](https://github.com/wavetermdev/waveterm) / [官网](https://www.waveterm.dev) | mac, win, linux |
+| **Homebrew** | macOS 缺失的软件包管理器 | [GitHub](https://github.com/Homebrew/brew/) / [官网](https://brew.sh/) | mac |
+| **MacPorts** | 开源软件包管理与安装系统 | [GitHub](https://github.com/macports/) / [官网](https://www.macports.org/) | mac |
+
+### 版本控制
+
+| 软件 | 简介 | 官网 / GitHub | 平台 |
+|------|------|---------------|------|
+| **GitHub Desktop** | GitHub 官方图形客户端 | [GitHub](https://github.com/desktop/desktop) / [官网](https://desktop.github.com/) | mac, win |
+| **GitUp** | 简单强大的 Git 客户端 | [GitHub](https://github.com/git-up/GitUp) / [官网](http://gitup.co/) | mac |
+| **Fork** | 快速友好的 Git 客户端 | [官网](https://git-fork.com/) | mac, win |
+| **SourceTree** | 免费的 Git 和 Mercurial 客户端 | [官网](https://www.sourcetreeapp.com/) | mac, win |
+| **GitButler** | 支持并行分支和 AI 集成的版本控制工具 | [GitHub](https://github.com/gitbutlerapp/gitbutler) / [官网](https://gitbutler.com/) | mac, win, linux |
+| **Git Cola** | 轻量级 Git GUI 客户端 | [GitHub](https://github.com/git-cola/git-cola) / [官网](https://git-cola.github.io/) | mac, win, linux |
+| **RelaGit** | 优雅的图形化版本控制工具 | [GitHub](https://github.com/relagit/relagit) / [官网](https://rela.dev/) | mac, win, linux |
+| **Tempo** | 带 AI 辅助的 GUI Git 客户端 | [GitHub](https://github.com/maoyama/Tempo) | mac |
+
+### 数据库工具
+
+| 软件 | 简介 | 官网 / GitHub | 平台 |
+|------|------|---------------|------|
+| **DBeaver** | 通用 SQL 客户端和数据库管理工具，支持 100+ 种数据库 | [GitHub](https://github.com/dbeaver/dbeaver) / [官网](https://dbeaver.io/) | mac, win, linux |
+| **Beekeeper Studio** | 流畅的 SQL 编辑器与数据库管理器，界面现代优雅 | [GitHub](https://github.com/beekeeper-studio/beekeeper-studio) / [官网](https://www.beekeeperstudio.io) | mac, win, linux |
+| **Chat2DB** | AI 驱动的开源数据库管理工具，支持自然语言转 SQL | [GitHub](https://github.com/codePhiliaX/Chat2DB) / [官网](https://chat2db.ai/zh-CN) | mac, win, linux |
+| **Postgres.app** | macOS 上最简单的 PostgreSQL 入门方式 | [GitHub](https://github.com/PostgresApp/PostgresApp) / [官网](http://postgresapp.com/) | mac |
+| **DB Browser for SQLite** | SQLite 数据库的官方可视化管理工具 | [GitHub](https://github.com/sqlitebrowser/sqlitebrowser) / [官网](http://sqlitebrowser.org/) | mac, win, linux |
+| **TablePlus** | 现代原生数据库管理工具（免费版有限制） | [官网](https://tableplus.com/) | mac, win, linux |
+| **TablePro** | AI 辅助的 SQL 编辑器 | [GitHub](https://github.com/datlechin/TablePro) | mac, win, linux |
+| **Redis Insight** | Redis 官方可视化浏览与调试工具 | [官网](https://redis.io/insight/) | mac, win, linux |
+| **MongoDB Compass** | MongoDB 官方 GUI | [官网](https://www.mongodb.com/products/compass) | mac, win, linux |
+| **Neo4j Desktop** | 领先的图数据库管理工具 | [GitHub](https://github.com/neo4j/neo4j) / [官网](https://neo4j.com) | mac, win, linux |
+| **Rainfrog** | 轻量级终端数据库管理 TUI，支持 Vim 键位 | [GitHub](https://github.com/achristmascarl/rainfrog) | mac, win, linux |
+| **HeidiSQL** | 专注于 MySQL/MariaDB 的轻量级客户端 | [GitHub](https://github.com/HeidiSQL/HeidiSQL) / [官网](https://www.heidisql.com/) | win, linux (Wine) |
+| **MySQL Workbench** | 官方 MySQL 管理工具 | [官网](https://www.mysql.com/products/workbench/) | mac, win, linux |
+| **Sequel Ace** | MySQL 与 MariaDB 数据库管理工具 | [GitHub](https://github.com/Sequel-Ace/Sequel-Ace) / [官网](https://sequel-ace.com/) | mac |
+| **Sequel Pro** | 经典的 macOS MySQL 管理工具 | [GitHub](https://github.com/sequelpro/sequelpro) / [官网](http://www.sequelpro.com/) | mac |
+
+### API 开发与网络分析
+
+| 软件 | 简介 | 官网 / GitHub | 平台 |
+|------|------|---------------|------|
+| **Bruno** | 离线优先、Git 友好的开源 API 客户端 | [官网](https://www.usebruno.com/) / [GitHub](https://github.com/usebruno/bruno) | mac, win, linux |
+| **Hoppscotch** | 轻量快速的 API 调试工具 | [GitHub](https://github.com/hoppscotch/hoppscotch) / [官网](https://hoppscotch.io) | mac, win, linux |
+| **Insomnia** | 直观的跨平台 REST API 客户端 | [GitHub](https://github.com/getinsomnia/insomnia) / [官网](https://insomnia.rest/) | mac, win, linux |
+| **Postman** | API 开发协作平台（免费版） | [官网](https://www.getpostman.com) | mac, win, linux |
+| **HTTPie** | 人性化的命令行 HTTP 客户端 | [官网](https://httpie.io/) / [GitHub](https://github.com/httpie/httpie) | mac, win, linux |
+| **Yaak** | 现代 API 客户端，支持多协议和 Git 集成 | [GitHub](https://github.com/mountain-loop/yaak) / [官网](https://yaak.app) | mac, win, linux |
+| **Reqable** | 下一代 API 开发工具与调试代理 | [官网](https://reqable.com) | mac, win, linux |
+| **Wireshark** | 全球最流行的网络协议分析器 | [GitHub](https://github.com/wireshark/wireshark) / [官网](https://www.wireshark.org) | mac, win, linux |
+| **mitmproxy** | 交互式 HTTPS 拦截代理 | [GitHub](https://github.com/mitmproxy/mitmproxy) / [官网](https://mitmproxy.org/) | mac, win, linux |
+| **Proxyman** | 现代直观的 HTTP 调试代理 | [官网](https://proxyman.app) | mac |
+| **Sniffnet** | 舒适监控网络流量的应用 | [GitHub](https://github.com/GyulyVGC/sniffnet) / [官网](https://www.sniffnet.net) | mac, win, linux |
 
 ---
 
