@@ -46,6 +46,7 @@
     - [开发命令行工具](#开发命令行工具)
     - [系统监控与文件操作](#系统监控与文件操作)
     - [macOS 专属命令行工具](#macos-专属命令行工具)
+    - [Windows 专属命令行工具](#windows-专属命令行工具)
   - [说明](#说明)
 
 ---
@@ -82,6 +83,18 @@
 | **f.lux** | 根据时间自动调节屏幕色温 | [官网](https://justgetflux.com/) | mac, win, linux |
 | **Shifty** | 增强 Night Shift 控制 | [GitHub](https://github.com/thompsonate/Shifty) / [官网](http://shifty.natethompson.io) | mac |
 | **Grayscale Mode** | 菜单栏切换灰度滤镜 | [GitHub](https://github.com/rkbhochalya/grayscale-mode) | mac |
+| **HWiNFO** | 专业的硬件信息和监控工具 | [官网](https://www.hwinfo.com/) | win |
+| **CPU-Z** | CPU 和系统信息显示工具 | [官网](https://www.cpuid.com/softwares/cpu-z.html) | win |
+| **GPU-Z** | GPU 详细信息查看工具 | [官网](https://www.techpowerup.com/gpuz/) | win |
+| **CrystalDiskInfo** | HDD/SSD 健康状态监测工具 | [官网](https://crystalmark.info/en/software/crystaldiskinfo/) | win |
+| **WinDirStat** | 磁盘空间分析工具 | [官网](https://windirstat.net/) | win |
+| **WizTree** | 超快速的磁盘空间分析器 | [官网](https://wiztreefree.com/) | win |
+| **BleachBit** | 系统清理和隐私保护工具 | [GitHub](https://github.com/bleachbit/bleachbit) / [官网](https://www.bleachbit.org/) | win, linux |
+| **CCleaner** | 系统优化和清理工具（免费版） | [官网](https://www.ccleaner.com/) | win |
+| **Revo Uninstaller** | 深度卸载工具（免费版） | [官网](https://www.revouninstaller.com/) | win |
+| **Bulk Crap Uninstaller** | 批量卸载工具 | [GitHub](https://github.com/Klocman/Bulk-Crap-Uninstaller) / [官网](https://www.bcuninstaller.com/) | win |
+| **TreeSize Free** | 磁盘空间管理工具（免费版） | [官网](https://www.jam-software.com/treesize-free/) | win |
+| **SpaceSniffer** | 直观的磁盘空间可视化工具 | [官网](http://www.uderzo.it/main_products/space_sniffer/) | win |
 
 ### 文件管理
 
@@ -96,6 +109,15 @@
 | **Fileside** | 现代平铺文件管理器，无限窗格 | [官网](https://www.fileside.app) | mac, win, linux |
 | **Folders File Manager** | 可展开文件夹树的文件管理器 | [官网](https://foldersapp.dev) | mac |
 | **Rapidmg** | 一键从 DMG 提取应用到 Applications | [App Store](https://apps.apple.com/app/rapidmg/id6451349778) | mac |
+| **Total Commander** | 经典的双窗格文件管理器（共享软件） | [官网](https://www.ghisler.com/) | win |
+| **FreeCommander** | 免费的双窗格文件管理器 | [官网](https://freecommander.com/) | win |
+| **Double Commander** | 开源跨平台双窗格文件管理器 | [GitHub](https://github.com/doublecmd/doublecmd) / [官网](https://doublecmd.github.io/) | win, linux |
+| **Files** | 现代化的 Windows 文件管理器替代品 | [GitHub](https://github.com/files-community/Files) / [官网](https://files.community/) | win |
+| **Explorer++** | 轻量级快速文件管理器 | [官网](https://explorerplusplus.com/) | win |
+| **Directory Opus** | 功能强大的文件管理器（有试用版） | [官网](https://www.gpsoft.com.au/) | win |
+| **7-Zip** | 高压缩率的开源压缩工具 | [官网](https://www.7-zip.org/) / [GitHub](https://github.com/ip7z/7zip) | win, linux |
+| **PeaZip** | 免费开源的文件压缩工具 | [官网](https://peazip.github.io/) / [GitHub](https://github.com/peazip/PeaZip) | win, linux |
+| **Bandizip** | 快速压缩工具（免费版） | [官网](https://www.bandisoft.com/bandizip/) | win |
 
 ### 安全与隐私
 
@@ -107,6 +129,7 @@
 | **OverSight** | 监控麦克风和摄像头访问 | [GitHub](https://github.com/objective-see/OverSight) / [官网](https://objective-see.com/products/oversight.html) | mac |
 | **Bitwarden** | 开源跨平台密码管理器 | [GitHub](https://github.com/bitwarden) / [官网](https://bitwarden.com) | mac, win, linux |
 | **KeePassXC** | 免费开源跨平台密码管理器 | [GitHub](https://github.com/keepassxreboot/keepassxc) / [官网](https://keepassxc.org/) | mac, win, linux |
+| **KeePass** | 经典开源密码管理器 | [官网](https://keepass.info/) | win, linux |
 | **MacPass** | 开源 KeePass macOS 客户端 | [GitHub](https://github.com/mstarke/MacPass) / [官网](https://macpass.github.io/) | mac |
 | **Strongbox** | 兼容 KeePass 的密码管理器 | [GitHub](https://github.com/strongbox-password-safe/Strongbox) / [官网](https://strongboxsafe.com/) | mac, ios |
 | **Keeweb** | 跨平台 KeePass 兼容密码管理器 | [GitHub](https://github.com/keeweb/keeweb) / [官网](https://keeweb.info/) | mac, win, linux |
@@ -122,6 +145,20 @@
 | **LinkLiar** | Wi-Fi 和以太网 MAC 地址伪装 | [GitHub](https://github.com/halo/LinkLiar) / [官网](http://halo.github.io/LinkLiar) | mac |
 | **swiftGuard** | 保护 USB 端口未授权访问 | [GitHub](https://github.com/Lennolium/swiftGuard) | mac |
 | **NoxKey** | 基于钥匙串的 API 密钥管理器 | [GitHub](https://github.com/No-Box-Dev/Noxkey) | mac |
+| **Windows Defender** | Windows 内置免费杀毒软件 | [官网](https://www.microsoft.com/security) | win |
+| **Bitdefender** | 免费杀毒软件（免费版） | [官网](https://www.bitdefender.com/solutions/free.html) | win |
+| **Avast** | 免费杀毒软件 | [官网](https://www.avast.com/) | win |
+| **AVG** | 免费杀毒软件 | [官网](https://www.avg.com/) | win |
+| **Sophos Home** | 家庭版免费杀毒软件 | [官网](https://home.sophos.com/) | win |
+| **GlassWire** | 网络流量监控和防火墙（免费版） | [官网](https://www.glasswire.com/) | win |
+| **SimpleWall** | 轻量级 Windows 防火墙配置工具 | [GitHub](https://github.com/henrypp/simplewall) | win |
+| **OpenVPN** | 开源 VPN 解决方案 | [官网](https://openvpn.net/) | win, mac, linux |
+| **ProtonVPN** | 注重隐私的 VPN（免费版） | [官网](https://protonvpn.com/) | win, mac, linux |
+| **Process Hacker** | 高级任务管理器和系统监控工具 | [官网](https://processhacker.sourceforge.net/) / [GitHub](https://github.com/processhacker/processhacker) | win |
+| **Process Explorer** | Microsoft Sysinternals 进程查看器 | [官网](https://docs.microsoft.com/sysinternals/downloads/process-explorer) | win |
+| **Autoruns** | 查看开机启动项的工具 | [官网](https://docs.microsoft.com/sysinternals/downloads/autoruns) | win |
+| **CPU-Z** | CPU 和系统信息显示工具 | [官网](https://www.cpuid.com/softwares/cpu-z.html) | win |
+| **GPU-Z** | GPU 详细信息查看工具 | [官网](https://www.techpowerup.com/gpuz/) | win |
 
 ---
 
@@ -233,6 +270,13 @@
 | **Pure Paste** | 默认粘贴为纯文本 | [App Store](https://apps.apple.com/app/id1611378436) | mac |
 | **Quicksilver** | 快速优雅控制 Mac | [GitHub](https://github.com/quicksilver/Quicksilver) / [官网](https://qsapp.com/) | mac |
 | **Cerebro** | 开源生产力启动器 | [GitHub](https://github.com/cerebroapp/cerebro) / [官网](https://cerebroapp.com/) | mac, win, linux |
+| **Ditto** | Windows 经典剪贴板管理器 | [官网](https://ditto-cp.sourceforge.net/) / [GitHub](https://github.com/sabrogden/Ditto) | win |
+| **ClipAngel** | 强大的剪贴板历史管理工具 | [官网](https://sourceforge.net/projects/clip-angel/) | win |
+| **WinClippy** | 简约的 Windows 剪贴板管理器 | [GitHub](https://github.com/microsoft/PowerToys) | win |
+| **Wox** | Windows 开源启动器 | [GitHub](https://github.com/Wox-launcher/Wox) / [官网](http://www.wox.one/) | win |
+| **Flow Launcher** | Wox 的现代化分支 | [GitHub](https://github.com/Flow-Launcher/Flow.Launcher) / [官网](https://flowlauncher.com/) | win |
+| **Listary** | 文件搜索和快速启动工具（免费版） | [官网](https://www.listary.com/) | win |
+| **Everything** | 极速文件搜索引擎 | [官网](https://www.voidtools.com/) | win |
 
 ### 窗口管理
 
@@ -249,6 +293,12 @@
 | **DockDoor** | 免费开源的窗口预览与 Alt-Tab | [GitHub](https://github.com/ejbills/DockDoor) / [官网](https://dockdoor.net) | mac |
 | **ShiftIt** | 管理窗口大小和位置 | [GitHub](https://github.com/fikovnik/ShiftIt) | mac |
 | **Tiles** | 通过边缘吸附快速排列窗口 | [官网](https://freemacsoft.net/tiles/) | mac |
+| **PowerToys FancyZones** | Microsoft 官方窗口布局工具 | [GitHub](https://github.com/microsoft/PowerToys) / [官网](https://learn.microsoft.com/windows/powertoys/) | win |
+| **AutoHotkey** | Windows 自动化脚本工具，可自定义窗口管理 | [官网](https://www.autohotkey.com/) / [GitHub](https://github.com/AutoHotkey/AutoHotkey) | win |
+| **AquaSnap** | 窗口贴靠和管理工具（免费版） | [官网](https://www.nurgo-software.com/products/aquasnap) | win |
+| **WindowManager** | 开源窗口管理工具 | [GitHub](https://github.com/Codeusa/Borderless-Gaming) | win |
+| **OnTopReplica** | 将窗口置顶显示的小工具 | [GitHub](https://github.com/LorenzCK/OnTopReplica) | win |
+| **DisplayFusion** | 多显示器管理工具（免费版） | [官网](https://www.binaryfortress.com/DisplayFusion/) | win |
 
 ---
 
@@ -281,6 +331,13 @@
 | **Pika** | 开源颜色拾取应用 | [GitHub](https://github.com/superhighfives/pika) / [官网](https://superhighfives.com/pika) | mac |
 | **System Color Picker** | 功能增强的 macOS 颜色选择器 | [GitHub](https://github.com/sindresorhus/System-Color-Picker) / [App Store](https://apps.apple.com/app/id1545870783) | mac |
 | **ScreenToLayers** | 将屏幕导出为分层 PSD | [GitHub](https://github.com/duyquoc/ScreenToLayers) / [App Store](https://apps.apple.com/app/screentolayers/id1077317077) | mac |
+| **Paint.NET** | Windows 图像和照片编辑软件 | [官网](https://www.getpaint.net/) | win |
+| **PhotoScape X** | 照片编辑和浏览工具（免费版） | [官网](http://x.photoscape.org/) | win |
+| **IrfanView** | 快速紧凑的图像查看器和转换器 | [官网](https://www.irfanview.com/) | win |
+| **XnView MP** | 强大的多媒体查看器、浏览器和转换器 | [官网](https://www.xnview.com/en/xnviewmp/) | win, mac, linux |
+| **Honeyview** | 快速图像查看器 | [官网](https://www.bandisoft.com/honeyview/) | win |
+| **FastStone Image Viewer** | 快速功能丰富的图像查看器 | [官网](https://www.faststone.org/FSViewerDetail.htm) | win |
+| **ScreenToGif** | 屏幕录制并保存为 GIF | [GitHub](https://github.com/NickeManarin/ScreenToGif) / [官网](https://www.screentogif.com/) | win |
 
 ### 视频与音频
 
@@ -311,6 +368,16 @@
 | **Cog** | 免费开源音频播放器 | [GitHub](https://github.com/losnoco/cog) / [官网](http://cogx.org/) | mac |
 | **XLD** | 无损音频解码转换工具 | [官网](http://tmkk.undo.jp/xld/index_e.html) | mac |
 | **Stargate DAW** | 一体化数字音频工作站与插件套件 | [GitHub](https://github.com/stargatedaw/stargate) | mac, win, linux |
+| **PotPlayer** | 功能强大的 Windows 媒体播放器 | [官网](https://potplayer.daum.net/) | win |
+| **MPC-HC** | 轻量级媒体播放器经典版 | [GitHub](https://github.com/clsid2/mpc-hc) | win |
+| **MPC-BE** | MPC 的黑色主题分支版本 | [GitHub](https://github.com/Aleksoid1978/MPC-BE) | win |
+| **KMPlayer** | 多功能媒体播放器（免费版） | [官网](https://kmplayer.com/) | win |
+| **foobar2000** | 高度可定制的音频播放器 | [官网](https://www.foobar2000.org/) | win |
+| **AIMP** | 功能丰富的音频播放器 | [官网](https://www.aimp.ru/) | win |
+| **Lightworks** | 专业视频编辑软件（免费版） | [官网](https://www.lightworks.com/) | win, mac, linux |
+| **HitFilm Express** | 免费视频编辑和 VFX 软件 | [官网](https://fxhome.com/product/hitfilm) | win, mac |
+| **VirtualDub** | 经典的视频捕获和处理工具 | [官网](http://virtualdub.sourceforge.net/) | win |
+| **VirtualDJ** | DJ 混音软件（家庭版免费） | [官网](https://www.virtualdj.com/) | win, mac |
 
 ### 截图与录屏
 
@@ -318,6 +385,7 @@
 |------|------|---------------|------|
 | **Flameshot** | 强大且易用的截图软件 | [GitHub](https://github.com/flameshot-org/flameshot) / [官网](https://flameshot.org) | mac, win, linux |
 | **Kap** | 基于 Web 技术的开源录屏工具 | [GitHub](https://github.com/wulkano/kap) / [官网](https://getkap.co/) | mac |
+| **OBS Studio** | 免费开源直播与录屏软件 | [GitHub](https://github.com/obsproject/obs-studio) / [官网](https://obsproject.com/) | mac, win, linux |
 | **Licecap** | 直接导出 GIF 的屏幕录制工具 | [GitHub](https://github.com/justinfrankel/licecap) / [官网](http://www.cockos.com/licecap/) | mac, win |
 | **KeyCastr** | 开源按键可视化工具 | [GitHub](https://github.com/keycastr/keycastr) | mac |
 | **Quick Recorder** | 轻量高性能 macOS 录屏工具 | [GitHub](https://github.com/lihaoyun6/QuickRecorder) / [官网](https://lihaoyun6.github.io/quickrecorder/) | mac |
@@ -329,6 +397,12 @@
 | **Monosnap** | 截图标注与录屏，支持多种云存储 | [官网](https://monosnap.com/) / [App Store](https://apps.apple.com/app/monosnap/id540348655) | mac, win |
 | **Shottr** | 支持滚动截图、OCR 和标注的截图工具 | [官网](https://shottr.cc/) | mac |
 | **Snipaste** | 简单但强大的截图贴图工具（免费版） | [官网](https://www.snipaste.com) | mac, win, linux |
+| **ShareX** | 功能最丰富的 Windows 截图和录屏工具 | [GitHub](https://github.com/ShareX/ShareX) / [官网](https://getsharex.com/) | win |
+| **Greenshot** | 轻量级截图工具 | [GitHub](https://github.com/greenshot/greenshot) / [官网](https://getgreenshot.org/) | win |
+| **Lightshot** | 快速截图和分享工具 | [官网](https://app.prntscr.com/) | win, mac |
+| **PicPick** | 全功能截图工具（免费版） | [官网](https://picpick.org/en/) | win |
+| **FastStone Capture** | 截图和屏幕录制工具（免费版） | [官网](https://www.faststone.org/FSCaptureDetail.htm) | win |
+| **NVIDIA ShadowPlay** | NVIDIA GPU 游戏录屏工具 | [官网](https://www.nvidia.com/geforce/geforce-experience/shadowplay/) | win |
 
 ---
 
@@ -360,6 +434,12 @@
 | **ElectronMail** | 非官方 ProtonMail 桌面客户端 | [GitHub](https://github.com/vladimiry/ElectronMail) | mac, win, linux |
 | **Foxmail** | 快速邮件客户端（免费） | [官网](http://www.foxmail.com/mac/en) | mac, win |
 | **Spark** | 智能邮件客户端（免费版） | [官网](https://sparkmailapp.com/) | mac, ios |
+| **SumatraPDF** | 轻量级 PDF/ePub/MOBI 阅读器 | [官网](https://www.sumatrapdfreader.org/free-pdf-reader) / [GitHub](https://github.com/sumatrapdfreader/sumatrapdf) | win |
+| **PDF-XChange Editor** | 功能丰富的 PDF 编辑器（免费版） | [官网](https://www.tracker-software.com/product/pdf-xchange-editor) | win |
+| **Foxit Reader** | 快速 PDF 阅读器（免费版） | [官网](https://www.foxitsoftware.com/pdf-reader/) | win, mac, linux |
+| **STDU Viewer** | 多格式文档查看器 | [官网](http://www.stdutility.com/stduviewer.html) | win |
+| **Feedly** | RSS 阅读器（免费版） | [官网](https://feedly.com/) | win, mac, linux |
+| **Aquile Reader** | 现代化 Windows 电子书阅读器 | [官网](https://aquilereader.com/) | win |
 
 ---
 
@@ -478,8 +558,16 @@
 | **Lapce** | 基于 Rust 的闪电般快速代码编辑器 | [GitHub](https://github.com/lapce/lapce) / [官网](https://lapce.dev/) | mac, win, linux |
 | **Helix** | 后现代模态文本编辑器，类似 Vim | [GitHub](https://github.com/helix-editor/helix/) / [官网](https://helix-editor.com/) | mac, win, linux |
 | **Emacs** | 经典的 Unix 文本编辑器，可扩展为 IDE | [GitHub](https://git.savannah.gnu.org/cgit/) / [官网](https://www.gnu.org/software/emacs/) | mac, win, linux |
+| **Sublime Text** | 高级文本编辑器（评估版无限期使用） | [官网](https://www.sublimetext.com/) | mac, win, linux |
 | **LiteEdit** | Swift 与 AppKit 构建的轻量编辑器，体积不足 1MB | [GitHub](https://github.com/arietan/lite-edit) / [官网](https://arietan.github.io/lite-edit/) | mac |
 | **Spyder** | 面向科学计算的 Python IDE | [GitHub](https://github.com/spyder-ide/spyder) / [官网](https://www.spyder-ide.org/) | mac, win, linux |
+| **Visual Studio Community** | 微软官方全功能 IDE（个人和小型团队免费） | [官网](https://visualstudio.microsoft.com/vs/community/) | win |
+| **Code::Blocks** | C/C++ 开源 IDE | [官网](http://www.codeblocks.org/) | win, linux |
+| **Notepad++** | 流行的 Windows 代码编辑器 | [官网](https://notepad-plus-plus.org/) / [GitHub](https://github.com/notepad-plus-plus/notepad-plus-plus) | win |
+| **Atom** | GitHub 开发的开源编辑器（已停止维护） | [GitHub](https://github.com/atom/atom) | mac, win, linux |
+| **Geany** | 轻量级跨平台 IDE | [官网](https://www.geany.org/) / [GitHub](https://github.com/geany/geany) | win, linux |
+| **Dev-C++** | C/C++ 集成开发环境 | [官网](https://sourceforge.net/projects/orwelldevcpp/) | win |
+| **Rider** | JetBrains .NET IDE（有免费试用） | [官网](https://www.jetbrains.com/rider/) | win, mac, linux |
 
 ### 终端与命令行
 
@@ -492,7 +580,12 @@
 | **Kitty** | 功能丰富的 GPU 终端模拟器 | [GitHub](https://github.com/kovidgoyal/kitty) / [官网](https://sw.kovidgoyal.net/kitty/) | mac, linux |
 | **Hyper** | 基于 Web 技术构建的终端 | [GitHub](https://github.com/zeit/hyper) / [官网](https://hyper.is) | mac, win, linux |
 | **Tabby** | 现代化终端工具，支持 SSH 和 SFTP | [GitHub](https://github.com/Eugeny/tabby) / [官网](https://tabby.sh) | mac, win, linux |
+| **Terminus** | 现代化的终端模拟器（原 Terminus） | [GitHub](https://github.com/Eugeny/terminus) | win, mac, linux |
 | **Wave** | 内置文件预览和 AI 工具的终端 | [GitHub](https://github.com/wavetermdev/waveterm) / [官网](https://www.waveterm.dev) | mac, win, linux |
+| **Windows Terminal** | 微软官方现代终端模拟器 | [GitHub](https://github.com/microsoft/terminal) / [官网](https://aka.ms/terminal) | win |
+| **ConEmu** | Windows 多标签终端模拟器 | [GitHub](https://github.com/Maximus5/ConEmu) / [官网](https://conemu.github.io/) | win |
+| **Cmder** | 便携版 cmd.exe 增强工具 | [GitHub](https://github.com/cmder/cmder) / [官网](https://cmder.net/) | win |
+| **Fluent Terminal** | 基于 UWP 的现代终端 | [GitHub](https://github.com/felixse/FluentTerminal) | win |
 
 ### 版本控制
 
@@ -647,6 +740,21 @@
 | **brew-cask-upgrade** | Homebrew Cask 升级工具 | [GitHub](https://github.com/buo/homebrew-cask-upgrade) | mac |
 | **dockutil** | 命令行管理 Dock | [GitHub](https://github.com/kcrawford/dockutil) | mac |
 
+### Windows 专属命令行工具
+
+| 软件 | 简介 | 官网 / GitHub | 平台 |
+|------|------|---------------|------|
+| **PowerShell** | 微软强大的命令行 Shell | [GitHub](https://github.com/PowerShell/PowerShell) / [官网](https://docs.microsoft.com/powershell/) | win, mac, linux |
+| **WSL** | Windows Subsystem for Linux | [官网](https://docs.microsoft.com/windows/wsl/) | win |
+| **Chocolatey** | Windows 包管理器 | [官网](https://chocolatey.org/) / [GitHub](https://github.com/chocolatey/choco) | win |
+| **Scoop** | Windows 命令行安装器 | [官网](https://scoop.sh/) / [GitHub](https://github.com/ScoopInstaller/Scoop) | win |
+| **Winget** | Microsoft 官方包管理器 | [GitHub](https://github.com/microsoft/winget-cli) | win |
+| **Clink** | 为 cmd.exe 添加 Bash 风格功能 | [GitHub](https://github.com/chrisant996/clink) | win |
+| **ANSICON** | 为 Windows 控制台添加 ANSI 颜色支持 | [GitHub](https://github.com/adoxa/ansicon) | win |
+| **sudo for Windows** | Windows 版 sudo 命令 | [GitHub](https://github.com/mattn/sudo) | win |
+| **WinGetUI** | Winget 的图形界面 | [GitHub](https://github.com/Romanitho/WiNGUI) | win |
+| **NirCmd** | Windows 命令行工具集 | [官网](https://www.nirsoft.net/utils/nircmd.html) | win |
+
 ---
 
 ## 说明
@@ -654,5 +762,8 @@
 - **平台标识**：`mac` = macOS, `win` = Windows, `linux` = Linux, `ios` = IOS, `android` = Android
 - **免费版**：指商业软件提供的免费基础版本，可能存在功能限制
 - **开源**：遵循各类开源许可证（MIT、GPL、Apache 等），可自由使用和修改
+- **2026-05-27更新**：重点补充了 Windows 平台的优秀开源和免费软件，涵盖系统工具、开发工具、媒体处理等多个分类
 
 ---
+
+**贡献者**: 欢迎提交 PR 补充更多优秀的跨平台或特定平台软件！
