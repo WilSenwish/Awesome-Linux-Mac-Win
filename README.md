@@ -6,44 +6,47 @@
 
 ## 目录
 
-- [系统与实用工具](#系统与实用工具)
-  - [系统监控与清理](#系统监控与清理)
-  - [文件管理](#文件管理)
-  - [安全与隐私](#安全与隐私)
-- [网络与通讯](#网络与通讯)
-  - [浏览器](#浏览器)
-  - [下载工具](#下载工具)
-  - [通讯协作](#通讯协作)
-- [生产力工具](#生产力工具)
-  - [笔记与知识管理](#笔记与知识管理)
-  - [待办事项与时间管理](#待办事项与时间管理)
-  - [剪贴板与效率](#剪贴板与效率)
-  - [窗口管理](#窗口管理)
-- [设计与媒体](#设计与媒体)
-  - [图像与图形设计](#图像与图形设计)
-  - [视频与音频](#视频与音频)
-  - [截图与录屏](#截图与录屏)
-- [办公与阅读](#办公与阅读)
-- [Markdown 编辑器](#markdown-编辑器)
-  - [所见即所得（WYSIWYG）编辑器](#所见即所得wysiwyg编辑器)
-  - [代码优先编辑器](#代码优先编辑器)
-  - [Markdown 预览与转换工具](#markdown-预览与转换工具)
-- [AI 工具与助手](#ai-工具与助手)
-  - [本地 AI 模型运行工具](#本地-ai-模型运行工具)
-  - [AI 编程助手（开源/免费）](#ai-编程助手开源免费)
-  - [AI 命令行工具](#ai-命令行工具)
-  - [AI 效率工具](#ai-效率工具)
-- [开发工具](#开发工具)
-  - [代码编辑器与 IDE](#代码编辑器与-ide)
-  - [终端与命令行](#终端与命令行)
-  - [版本控制](#版本控制)
-  - [数据库工具](#数据库工具)
-  - [API 开发与网络分析](#api-开发与网络分析)
-- [命令行工具](#命令行工具)
-  - [终端增强与 Shell 工具](#终端增强与-shell-工具)
-  - [开发命令行工具](#开发命令行工具)
-  - [系统监控与文件操作](#系统监控与文件操作)
-  - [macOS 专属命令行工具](#macos-专属命令行工具)
+- [免费开源 Linux, Mac, Windows 软件精选合集](#免费开源-linux-mac-windows-软件精选合集)
+  - [目录](#目录)
+  - [系统与实用工具](#系统与实用工具)
+    - [系统监控与清理](#系统监控与清理)
+    - [文件管理](#文件管理)
+    - [安全与隐私](#安全与隐私)
+  - [网络与通讯](#网络与通讯)
+    - [浏览器](#浏览器)
+    - [下载工具](#下载工具)
+    - [通讯协作](#通讯协作)
+  - [生产力工具](#生产力工具)
+    - [笔记与知识管理](#笔记与知识管理)
+    - [待办事项与时间管理](#待办事项与时间管理)
+    - [剪贴板与效率](#剪贴板与效率)
+    - [窗口管理](#窗口管理)
+  - [设计与媒体](#设计与媒体)
+    - [图像与图形设计](#图像与图形设计)
+    - [视频与音频](#视频与音频)
+    - [截图与录屏](#截图与录屏)
+  - [办公与阅读](#办公与阅读)
+  - [Markdown 编辑器](#markdown-编辑器)
+    - [所见即所得（WYSIWYG）编辑器](#所见即所得wysiwyg编辑器)
+    - [代码优先编辑器](#代码优先编辑器)
+    - [Markdown 预览与转换工具](#markdown-预览与转换工具)
+  - [AI 工具与助手](#ai-工具与助手)
+    - [本地 AI 模型运行工具](#本地-ai-模型运行工具)
+    - [AI 编程助手（开源/免费）](#ai-编程助手开源免费)
+    - [AI 命令行工具](#ai-命令行工具)
+    - [AI 效率工具](#ai-效率工具)
+  - [开发工具](#开发工具)
+    - [代码编辑器与 IDE](#代码编辑器与-ide)
+    - [终端与命令行](#终端与命令行)
+    - [版本控制](#版本控制)
+    - [数据库工具](#数据库工具)
+    - [API 开发与网络分析](#api-开发与网络分析)
+  - [命令行工具](#命令行工具)
+    - [终端增强与 Shell 工具](#终端增强与-shell-工具)
+    - [开发命令行工具](#开发命令行工具)
+    - [系统监控与文件操作](#系统监控与文件操作)
+    - [macOS 专属命令行工具](#macos-专属命令行工具)
+  - [说明](#说明)
 
 ---
 
@@ -98,6 +101,10 @@
 
 | 软件 | 简介 | 官网 / GitHub | 平台 |
 |------|------|---------------|------|
+| **LuLu** | 免费 macOS 防火墙，阻止未授权出站流量 | [GitHub](https://github.com/objective-see/LuLu) / [官网](https://objective-see.com/products/lulu.html) | mac |
+| **BlockBlock** | 监控持久化安装行为 | [GitHub](https://github.com/objective-see/BlockBlock) / [官网](https://objective-see.com/products/blockblock.html) | mac |
+| **KnockKnock** | 查看系统持久化安装项 | [GitHub](https://github.com/objective-see/KnockKnock) / [官网](https://objective-see.com/products/knockknock.html) | mac |
+| **OverSight** | 监控麦克风和摄像头访问 | [GitHub](https://github.com/objective-see/OverSight) / [官网](https://objective-see.com/products/oversight.html) | mac |
 | **Bitwarden** | 开源跨平台密码管理器 | [GitHub](https://github.com/bitwarden) / [官网](https://bitwarden.com) | mac, win, linux |
 | **KeePassXC** | 免费开源跨平台密码管理器 | [GitHub](https://github.com/keepassxreboot/keepassxc) / [官网](https://keepassxc.org/) | mac, win, linux |
 | **MacPass** | 开源 KeePass macOS 客户端 | [GitHub](https://github.com/mstarke/MacPass) / [官网](https://macpass.github.io/) | mac |
@@ -107,12 +114,8 @@
 | **Cryptomator** | 云端文件客户端加密工具 | [GitHub](https://github.com/cryptomator/cryptomator/) / [官网](https://cryptomator.org/) | mac, win, linux |
 | **Deadbolt** | 开源文件加密工具 | [GitHub](https://github.com/alichtman/deadbolt) | mac, win, linux |
 | **VeraCrypt** | 免费开源磁盘加密软件 | [官网](https://veracrypt.fr) | mac, win, linux |
-| **LuLu** | 免费 macOS 防火墙，阻止未授权出站流量 | [GitHub](https://github.com/objective-see/LuLu) / [官网](https://objective-see.com/products/lulu.html) | mac |
 | **Pareto Security** | 自动审计 Mac 基础安全配置 | [GitHub](https://github.com/ParetoSecurity/pareto-mac) / [官网](https://paretosecurity.com/) | mac |
 | **LockDown** | 审计和修复安全配置的开放工具 | [GitHub](https://bitbucket.org/objective-see/lockdown) / [官网](https://objective-see.com/products/lockdown.html) | mac |
-| **BlockBlock** | 监控持久化安装行为 | [GitHub](https://github.com/objective-see/BlockBlock) / [官网](https://objective-see.com/products/blockblock.html) | mac |
-| **KnockKnock** | 查看系统持久化安装项 | [GitHub](https://github.com/objective-see/KnockKnock) / [官网](https://objective-see.com/products/knockknock.html) | mac |
-| **OverSight** | 监控麦克风和摄像头访问 | [GitHub](https://github.com/objective-see/OverSight) / [官网](https://objective-see.com/products/oversight.html) | mac |
 | **Santa** | 二进制文件白名单/黑名单系统 | [GitHub](https://github.com/northpolesec/santa) / [官网](https://northpole.security/) | mac |
 | **Suspicious Package** | 检查 macOS 安装包内容 | [官网](https://www.mothersruin.com/software/SuspiciousPackage/) | mac |
 | **Malwarebytes** | 恶意软件扫描与移除（免费版） | [官网](https://www.malwarebytes.com/mac-download/) | mac, win |
@@ -129,27 +132,27 @@
 | 软件 | 简介 | 官网 / GitHub | 平台 |
 |------|------|---------------|------|
 | **Firefox** | Mozilla 开发的免费开源浏览器 | [官网](https://www.firefox.com/) / [Mercurial](https://hg.mozilla.org/) | mac, win, linux |
+| **Zen Browser** | 注重隐私与功能的开源浏览器 | [GitHub](https://github.com/zen-browser/desktop) / [官网](https://zen-browser.app/) | mac, win, linux |
+| **Safari** | Apple 原生浏览器 | [官网](https://www.apple.com/safari/) | mac, ios |
 | **Brave** | 注重隐私与速度的浏览器 | [GitHub](https://github.com/brave/brave-browser/) / [官网](https://brave.com/) | mac, win, linux |
 | **Chromium** | Chrome 背后的开源浏览器项目 | [官网](https://www.chromium.org/Home) | mac, win, linux |
 | **ungoogled-chromium** | 移除 Google 依赖的 Chromium | [GitHub](https://github.com/ungoogled-software/ungoogled-chromium) | mac, win, linux |
 | **Tor Browser** | 专为匿名浏览设计的隐私浏览器 | [GitLab](https://gitlab.torproject.org/tpo/applications/tor-browser/) / [官网](https://www.torproject.org/) | mac, win, linux |
 | **Mullvad Browser** | 专注反指纹保护的隐私浏览器 | [GitLab](https://gitlab.torproject.org/tpo/applications/mullvad-browser/) / [官网](https://mullvad.net/en/download/browser/) | mac, win, linux |
 | **LibreWolf** | 专注隐私、安全与自由的 Firefox 分支 | [GitLab](https://gitlab.com/librewolf-community) / [官网](https://librewolf.net) | mac, win, linux |
-| **Zen Browser** | 注重隐私与功能的开源浏览器 | [GitHub](https://github.com/zen-browser/desktop) / [官网](https://zen-browser.app/) | mac, win, linux |
 | **Min** | 快速极简的隐私保护浏览器 | [GitHub](https://github.com/minbrowser/min) / [官网](https://minbrowser.org/) | mac, win, linux |
 | **qutebrowser** | 键盘驱动的类 Vim 浏览器 | [GitHub](https://github.com/qutebrowser/qutebrowser) / [官网](https://www.qutebrowser.org/) | mac, win, linux |
 | **Vivaldi** | 注重用户控制的浏览器（免费） | [官网](https://vivaldi.com) | mac, win, linux |
 | **Orion** | 轻量 WebKit 浏览器，支持 Chrome/Firefox 扩展 | [官网](https://browser.kagi.com/) | mac |
 | **Arc** | 独特工作区式界面的浏览器（免费） | [官网](https://arc.net/) | mac |
-| **Safari** | Apple 原生浏览器 | [官网](https://www.apple.com/safari/) | mac, ios |
 
 ### 下载工具
 
 | 软件 | 简介 | 官网 / GitHub | 平台 |
 |------|------|---------------|------|
+| **Motrix** | 支持 HTTP/FTP/BT/磁力的下载管理器 | [GitHub](https://github.com/agalwood/Motrix) / [官网](https://motrix.app/) | mac, win, linux |
 | **Transmission** | 简单轻量的跨平台 BT 客户端 | [GitHub](https://github.com/transmission/transmission) / [官网](https://www.transmissionbt.com/) | mac, win, linux |
 | **qBittorrent** | 开源 µTorrent 替代品 | [GitHub](https://github.com/qbittorrent/qBittorrent) / [官网](https://www.qbittorrent.org/) | mac, win, linux |
-| **Motrix** | 支持 HTTP/FTP/BT/磁力的下载管理器 | [GitHub](https://github.com/agalwood/Motrix) / [官网](https://motrix.app/) | mac, win, linux |
 | **Free Download Manager** | 强大的免费下载加速器 | [官网](https://www.freedownloadmanager.org/) | mac, win, linux |
 | **JDownloader** | 开源下载管理器 | [官网](http://jdownloader.org/) | mac, win, linux |
 | **Deluge** | 轻量级跨平台 BT 客户端 | [官网](https://deluge-torrent.org/) | mac, win, linux |
@@ -163,6 +166,7 @@
 
 | 软件 | 简介 | 官网 / GitHub | 平台 |
 |------|------|---------------|------|
+| **LocalSend** | 跨平台 AirDrop 开源替代品 | [GitHub](https://github.com/localsend/localsend) / [官网](https://localsend.org/) | mac, win, linux |
 | **Telegram** | 注重速度与安全的消息应用 | [GitHub](https://github.com/overtake/TelegramSwift) / [官网](https://desktop.telegram.org) | mac, win, linux |
 | **Signal** | 快速、简单、安全的隐私通讯 | [GitHub](https://github.com/signalapp/Signal-Desktop) / [官网](https://signal.org/download/) | mac, win, linux |
 | **Element** | 安全去中心化通讯 | [GitHub](https://github.com/vector-im) / [官网](https://element.io/) | mac, win, linux |
@@ -178,7 +182,6 @@
 | **Ferdium** | 整合多种 Web 应用于一处 | [GitHub](https://github.com/ferdium/ferdium-app) / [官网](https://ferdium.org/) | mac, win, linux |
 | **Rambox** | 整合常用 Web 应用于单一界面 | [GitHub](https://github.com/saenzramiro/rambox) / [官网](http://rambox.pro/) | mac, win, linux |
 | **Mastodon** | 自托管去中心化微博社区 | [GitHub](https://github.com/mastodon/mastodon) / [官网](https://mastodon.social/) | mac, win, linux |
-| **LocalSend** | 跨平台 AirDrop 开源替代品 | [GitHub](https://github.com/localsend/localsend) / [官网](https://localsend.org/) | mac, win, linux |
 
 ---
 
@@ -207,10 +210,10 @@
 | 软件 | 简介 | 官网 / GitHub | 平台 |
 |------|------|---------------|------|
 | **Super Productivity** | 支持时间盒与时间追踪的任务管理器 | [GitHub](https://github.com/johannesjo/super-productivity) / [官网](https://super-productivity.com) | mac, win, linux |
+| **Microsoft To-Do** | 微软出品的待办应用 | [官网](https://todo.microsoft.com/) | mac, win, ios, android |
 | **Focalboard** | 开源自托管的 Trello/Notion 替代品 | [GitHub](https://github.com/mattermost/focalboard) / [官网](https://www.focalboard.com/) | mac, win, linux |
 | **Taskade** | 实时协作任务管理工具（免费版） | [官网](https://www.taskade.com) | mac, win, linux |
 | **Todoist** | 跨平台待办列表（免费版） | [官网](https://todoist.com/mac) | mac, win, linux |
-| **Microsoft To-Do** | 微软出品的待办应用 | [官网](https://todo.microsoft.com/) | mac, win, ios, android |
 | **TickTick** | 简洁高效的任务管理（免费版） | [官网](https://ticktick.com/) | mac, win, linux |
 | **ActivityWatch** | 跨平台可扩展的隐私专注时间追踪器 | [GitHub](https://github.com/ActivityWatch/activitywatch) / [官网](https://activitywatch.net/) | mac, win, linux |
 | **TomatoBar** | 菜单栏上的番茄钟计时器 | [GitHub](https://github.com/ivoronin/TomatoBar) | mac |
@@ -220,14 +223,14 @@
 
 | 软件 | 简介 | 官网 / GitHub | 平台 |
 |------|------|---------------|------|
+| **Alfred** | 启动器与自动化工具（免费版功能有限） | [官网](https://www.alfredapp.com/) | mac |
+| **Raycast** | 现代启动器与命令面板（免费版） | [官网](https://raycast.com) | mac |
 | **Maccy** | 轻量级 macOS 剪贴板管理器 | [GitHub](https://github.com/p0deje/Maccy) / [官网](https://maccy.app/) | mac |
 | **CopyQ** | 高级剪贴板管理器 | [GitHub](https://github.com/hluk/CopyQ) / [官网](https://hluk.github.io/CopyQ) | mac, win, linux |
 | **Flycut** | 面向开发者的简洁剪贴板管理器 | [GitHub](https://github.com/TermiT/Flycut) | mac |
 | **Clipy** | 基于 ClipMenu 的剪贴板扩展应用 | [GitHub](https://github.com/Clipy/Clipy) / [官网](https://clipy-app.com/) | mac |
 | **PasteBar** | 跨平台无限制免费剪贴板管理器 | [GitHub](https://github.com/PasteBar/PasteBarApp) / [官网](https://pastebar.app) | mac, win |
 | **Pure Paste** | 默认粘贴为纯文本 | [App Store](https://apps.apple.com/app/id1611378436) | mac |
-| **Alfred** | 启动器与自动化工具（免费版功能有限） | [官网](https://www.alfredapp.com/) | mac |
-| **Raycast** | 现代启动器与命令面板（免费版） | [官网](https://raycast.com) | mac |
 | **Quicksilver** | 快速优雅控制 Mac | [GitHub](https://github.com/quicksilver/Quicksilver) / [官网](https://qsapp.com/) | mac |
 | **Cerebro** | 开源生产力启动器 | [GitHub](https://github.com/cerebroapp/cerebro) / [官网](https://cerebroapp.com/) | mac, win, linux |
 
@@ -262,8 +265,8 @@
 | **Darktable** | 开源摄影工作流应用与 RAW 处理器 | [GitHub](https://github.com/darktable-org/darktable) / [官网](https://www.darktable.org) | mac, win, linux |
 | **RawTherapee** | 跨平台 RAW 照片处理程序 | [GitHub](https://github.com/Beep6581/RawTherapee) / [官网](https://rawtherapee.com/) | mac, win, linux |
 | **Pencil2D** | 直观的 2D 手绘动画工具 | [GitHub](https://github.com/pencil2d/pencil) / [官网](https://www.pencil2d.org) | mac, win, linux |
-| **Paintbrush** | 位图图像编辑器 | [SourceForge](https://sourceforge.net/projects/paintbrush/files/) / [官网](http://paintbrush.sourceforge.net/) | mac |
 | **macSVG** | HTML5 SVG 艺术与动画设计 | [GitHub](https://github.com/dsward2/macSVG) / [官网](https://macsvg.org/) | mac |
+| **Paintbrush** | 位图图像编辑器 | [SourceForge](https://sourceforge.net/projects/paintbrush/files/) / [官网](http://paintbrush.sourceforge.net/) | mac |
 | **qView** | 极简图像查看器 | [GitHub](https://github.com/jurplel/qView) / [官网](https://interversehq.com/qview/) | mac, win, linux |
 | **Pixen** | 像素艺术与动画编辑器 | [官网](https://pixenapp.com/mac/) | mac |
 | **Figma** | 协作界面设计工具（免费版） | [官网](https://www.figma.com/) | mac, win, linux |
@@ -460,6 +463,12 @@
 |------|------|---------------|------|
 | **Visual Studio Code** | 微软出品的免费开源编辑器，支持丰富插件生态 | [GitHub](https://github.com/Microsoft/vscode) / [官网](https://code.visualstudio.com/) | mac, win, linux |
 | **VSCodium** | VS Code 的社区驱动无追踪版本 | [GitHub](https://github.com/vscodium/vscodium) / [官网](https://vscodium.com/) | mac, win, linux |
+| **Eclipse** | 老牌开源 IDE，Java 开发首选 | [GitHub](https://github.com/eclipse) / [官网](https://www.eclipse.org) | mac, win, linux |
+| **NetBeans** | Apache 维护的免费开源 IDE | [GitHub](https://github.com/apache/netbeans) / [官网](https://netbeans.apache.org/) | mac, win, linux |
+| **IntelliJ IDEA Community** | JetBrains 出品的 Java IDE 社区免费版 | [官网](https://www.jetbrains.com/idea/) | mac, win, linux |
+| **PyCharm Community** | Python IDE 社区免费版 | [官网](https://www.jetbrains.com/pycharm/) | mac, win, linux |
+| **Android Studio** | 官方 Android 开发 IDE | [GitHub](https://github.com/android) / [官网](https://developer.android.com/studio) | mac, win, linux |
+| **Xcode** | Apple 官方 iOS/macOS 开发环境 | [App Store](https://apps.apple.com/app/id497799835) | mac |
 | **Zed** | 高性能多人协作代码编辑器，由 Atom 原作者开发 | [GitHub](https://github.com/zed-industries/zed) / [官网](https://zed.dev/) | mac, win, linux |
 | **CodeEdit** | 专为 macOS 打造的轻量原生编辑器 | [GitHub](https://github.com/CodeEditApp/CodeEdit) / [官网](https://www.codeedit.app/) | mac |
 | **Neovim** | Vim 的分支，专注于可扩展性和可用性 | [GitHub](https://github.com/neovim/neovim) / [官网](https://neovim.io/) | mac, win, linux |
@@ -471,12 +480,6 @@
 | **Emacs** | 经典的 Unix 文本编辑器，可扩展为 IDE | [GitHub](https://git.savannah.gnu.org/cgit/) / [官网](https://www.gnu.org/software/emacs/) | mac, win, linux |
 | **LiteEdit** | Swift 与 AppKit 构建的轻量编辑器，体积不足 1MB | [GitHub](https://github.com/arietan/lite-edit) / [官网](https://arietan.github.io/lite-edit/) | mac |
 | **Spyder** | 面向科学计算的 Python IDE | [GitHub](https://github.com/spyder-ide/spyder) / [官网](https://www.spyder-ide.org/) | mac, win, linux |
-| **Eclipse** | 老牌开源 IDE，Java 开发首选 | [GitHub](https://github.com/eclipse) / [官网](https://www.eclipse.org) | mac, win, linux |
-| **NetBeans** | Apache 维护的免费开源 IDE | [GitHub](https://github.com/apache/netbeans) / [官网](https://netbeans.apache.org/) | mac, win, linux |
-| **IntelliJ IDEA Community** | JetBrains 出品的 Java IDE 社区免费版 | [官网](https://www.jetbrains.com/idea/) | mac, win, linux |
-| **PyCharm Community** | Python IDE 社区免费版 | [官网](https://www.jetbrains.com/pycharm/) | mac, win, linux |
-| **Android Studio** | 官方 Android 开发 IDE | [GitHub](https://github.com/android) / [官网](https://developer.android.com/studio) | mac, win, linux |
-| **Xcode** | Apple 官方 iOS/macOS 开发环境 | [App Store](https://apps.apple.com/app/id497799835) | mac |
 
 ### 终端与命令行
 
@@ -550,16 +553,16 @@
 |------|------|---------------|------|
 | **Homebrew** | macOS 缺失的软件包管理器 | [GitHub](https://github.com/Homebrew/brew/) / [官网](https://brew.sh/) | mac, linux |
 | **MacPorts** | 开源软件包管理与安装系统 | [GitHub](https://github.com/macports/) / [官网](https://www.macports.org/) | mac |
-| **oh-my-zsh** | 社区驱动的 Zsh 框架 | [GitHub](https://github.com/ohmyzsh/ohmyzsh) / [官网](https://ohmyz.sh/) | mac, win, linux |
 | **Starship** | 极速可定制的 Shell 提示符 | [GitHub](https://github.com/starship/starship) / [官网](https://starship.rs/) | mac, win, linux |
+| **oh-my-zsh** | 社区驱动的 Zsh 框架 | [GitHub](https://github.com/ohmyzsh/ohmyzsh) / [官网](https://ohmyz.sh/) | mac, win, linux |
 | **zsh-autosuggestions** | Zsh 自动建议插件 | [GitHub](https://github.com/zsh-users/zsh-autosuggestions) | mac, win, linux |
 | **zsh-syntax-highlighting** | Zsh 语法高亮插件 | [GitHub](https://github.com/zsh-users/zsh-syntax-highlighting) | mac, win, linux |
 | **fzf** | 命令行模糊查找器 | [GitHub](https://github.com/junegunn/fzf) / [官网](https://junegunn.github.io/fzf/) | mac, win, linux |
 | **zoxide** | 更智能的 `cd` 命令替代品 | [GitHub](https://github.com/ajeetdsouza/zoxide) | mac, win, linux |
 | **eza** | 现代化的 `ls` 替代品 | [GitHub](https://github.com/eza-community/eza) | mac, win, linux |
 | **bat** | 带语法高亮的 `cat` 替代品 | [GitHub](https://github.com/sharkdp/bat) | mac, win, linux |
-| **ripgrep (rg)** | 极速文本搜索工具 | [GitHub](https://github.com/BurntSushi/ripgrep) | mac, win, linux |
 | **fd** | 简单快速的 `find` 替代品 | [GitHub](https://github.com/sharkdp/fd) | mac, win, linux |
+| **ripgrep (rg)** | 极速文本搜索工具 | [GitHub](https://github.com/BurntSushi/ripgrep) | mac, win, linux |
 | **tldr** | 简化的命令行手册（比 man 更易读） | [GitHub](https://github.com/tldr-pages/tldr) / [官网](https://tldr.sh/) | mac, win, linux |
 | **cheat** | 交互式命令行速查表 | [GitHub](https://github.com/cheat/cheat) | mac, win, linux |
 | **howdoi** | 命令行编程问题即时解答 | [GitHub](https://github.com/gleitz/howdoi) | mac, win, linux |
@@ -633,22 +636,22 @@
 | 软件 | 简介 | 官网 / GitHub | 平台 |
 |------|------|---------------|------|
 | **mas** | Mac App Store 命令行工具 | [GitHub](https://github.com/mas-cli/mas) | mac |
-| **brew-cask-upgrade** | Homebrew Cask 升级工具 | [GitHub](https://github.com/buo/homebrew-cask-upgrade) | mac |
+| **mac-cli** | macOS 实用命令集合 | [GitHub](https://github.com/guarinogabriel/mac-cli) | mac |
+| **macOS-defaults** | macOS 系统设置命令集合 | [GitHub](https://github.com/kevinSuttle/macOS-defaults) | mac |
 | **do-not-disturb-cli** | 命令行控制 macOS 勿扰模式 | [GitHub](https://github.com/sindresorhus/do-not-disturb-cli) | mac |
 | **tccutil.py** | 管理 macOS TCC 隐私数据库 | [GitHub](https://github.com/jacobsalmela/tccutil) | mac |
 | **osx-cpu-temp** | 读取 macOS CPU 温度 | [GitHub](https://github.com/lavoiesl/osx-cpu-temp) | mac |
 | **battery** | 命令行显示电池信息 | [GitHub](https://github.com/gyc/battery) | mac |
 | **wifi-password** | 获取当前 WiFi 密码 | [GitHub](https://github.com/rauchg/wifi-password) | mac |
-| **mac-cli** | macOS 实用命令集合 | [GitHub](https://github.com/guarinogabriel/mac-cli) | mac |
-| **macOS-defaults** | macOS 系统设置命令集合 | [GitHub](https://github.com/kevinSuttle/macOS-defaults) | mac |
-| **dockutil** | 命令行管理 Dock | [GitHub](https://github.com/kcrawford/dockutil) | mac |
 | **launchrocket** | 管理 Homebrew 服务 | [GitHub](https://github.com/jimbojsb/launchrocket) | mac |
+| **brew-cask-upgrade** | Homebrew Cask 升级工具 | [GitHub](https://github.com/buo/homebrew-cask-upgrade) | mac |
+| **dockutil** | 命令行管理 Dock | [GitHub](https://github.com/kcrawford/dockutil) | mac |
 
 ---
 
 ## 说明
 
-- **平台标识**：`mac` = macOS, `win` = Windows, `linux` = Linux
+- **平台标识**：`mac` = macOS, `win` = Windows, `linux` = Linux, `ios` = IOS, `android` = Android
 - **免费版**：指商业软件提供的免费基础版本，可能存在功能限制
 - **开源**：遵循各类开源许可证（MIT、GPL、Apache 等），可自由使用和修改
 
