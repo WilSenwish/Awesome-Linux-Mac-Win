@@ -7,123 +7,126 @@
 <a id="目录"></a>
 ## 目录
 
-1. [系统与实用工具](#1-系统与实用工具)
-   - [1.1 系统监控与清理](#1-1-系统监控与清理)
-     - [1.1.1 跨平台工具](#1-1-1-跨平台工具)
-     - [1.1.2 macOS 专属](#1-1-2-macos-专属)
-     - [1.1.3 Windows 专属](#1-1-3-windows-专属)
-     - [1.1.4 Linux 专属](#1-1-4-linux-专属)
-   - [1.2 文件管理](#1-2-文件管理)
-     - [1.2.1 跨平台文件管理器](#1-2-1-跨平台文件管理器)
-     - [1.2.2 压缩与解压工具](#1-2-2-压缩与解压工具)
-     - [1.2.3 macOS 专属](#1-2-3-macos-专属)
-     - [1.2.4 Windows 专属](#1-2-4-windows-专属)
-     - [1.2.5 Linux 专属](#1-2-5-linux-专属)
-   - [1.3 安全与隐私](#1-3-安全与隐私)
-     - [1.3.1 密码管理](#1-3-1-密码管理)
-     - [1.3.2 安全隐私工具](#1-3-2-安全隐私工具)
-2. [网络与通讯](#2-网络与通讯)
-   - [2.1 浏览器](#2-1-浏览器)
-     - [2.1.1 跨平台工具](#2-1-1-跨平台工具)
-     - [2.1.2 macOS 专属](#2-1-2-macos-专属)
-     - [2.1.3 Linux 专属](#2-1-3-linux-专属)
-   - [2.2 下载工具](#2-2-下载工具)
-     - [2.2.1 跨平台工具](#2-2-1-跨平台工具)
-     - [2.2.2 macOS 专属](#2-2-2-macos-专属)
-     - [2.2.3 Linux 专属](#2-2-3-linux-专属)
-   - [2.3 通讯协作](#2-3-通讯协作)
-     - [2.3.1 跨平台工具](#2-3-1-跨平台工具)
-     - [2.3.2 macOS 专属](#2-3-2-macos-专属)
-     - [2.3.3 Linux 专属](#2-3-3-linux-专属)
-3. [生产力工具](#3-生产力工具)
-   - [3.1 笔记与知识管理](#3-1-笔记与知识管理)
-     - [3.1.1 跨平台工具](#3-1-1-跨平台工具)
-     - [3.1.2 macOS 专属](#3-1-2-macos-专属)
-     - [3.1.3 Linux 专属](#3-1-3-linux-专属)
-   - [3.2 待办事项与时间管理](#3-2-待办事项与时间管理)
-     - [3.2.1 跨平台工具](#3-2-1-跨平台工具)
-     - [3.2.2 macOS 专属](#3-2-2-macos-专属)
-     - [3.2.3 Linux 专属](#3-2-3-linux-专属)
-   - [3.3 剪贴板与效率](#3-3-剪贴板与效率)
-     - [3.3.1 跨平台工具](#3-3-1-跨平台工具)
-     - [3.3.2 macOS 专属](#3-3-2-macos-专属)
-     - [3.3.3 Windows 专属](#3-3-3-windows-专属)
-     - [3.3.4 Linux 专属](#3-3-4-linux-专属)
-   - [3.4 窗口管理](#3-4-窗口管理)
-     - [3.4.1 macOS 专属](#3-4-1-macos-专属)
-     - [3.4.2 Windows 专属](#3-4-2-windows-专属)
-     - [3.4.3 Linux 专属](#3-4-3-linux-专属)
-4. [设计与媒体](#4-设计与媒体)
-   - [4.1 图像与图形设计](#4-1-图像与图形设计)
-     - [4.1.1 跨平台工具](#4-1-1-跨平台工具)
-     - [4.1.2 macOS 专属](#4-1-2-macos-专属)
-     - [4.1.3 Linux 专属](#4-1-3-linux-专属)
-   - [4.2 视频与音频](#4-2-视频与音频)
-     - [4.2.1 跨平台工具](#4-2-1-跨平台工具)
-   - [4.3 截图与录屏](#4-3-截图与录屏)
-     - [4.3.1 跨平台工具](#4-3-1-跨平台工具)
-5. [办公与阅读](#5-办公与阅读)
-   - [5.1 办公套件](#5-1-办公套件)
-     - [5.1.1 跨平台工具](#5-1-1-跨平台工具)
-     - [5.1.2 macOS 专属](#5-1-2-macos-专属)
-     - [5.1.3 Windows 专属](#5-1-3-windows-专属)
-     - [5.1.4 Linux 专属](#5-1-4-linux-专属)
-6. [Markdown 编辑器](#6-markdown-编辑器)
-   - [6.1 所见即所得（WYSIWYG）编辑器](#6-1-所见即所得wysiwyg编辑器)
-     - [6.1.1 跨平台工具](#6-1-1-跨平台工具)
-     - [6.1.2 macOS 专属](#6-1-2-macos-专属)
-   - [6.2 代码优先编辑器](#6-2-代码优先编辑器)
-     - [6.2.1 跨平台工具](#6-2-1-跨平台工具)
-     - [6.2.2 macOS 专属](#6-2-2-macos-专属)
-   - [6.3 Markdown 预览与转换工具](#6-3-markdown-预览与转换工具)
-     - [6.3.1 跨平台工具](#6-3-1-跨平台工具)
-     - [6.3.2 macOS 专属](#6-3-2-macos-专属)
-7. [AI 工具与助手](#7-ai-工具与助手)
-   - [7.1 本地 AI 模型运行工具](#7-1-本地-ai-模型运行工具)
-     - [7.1.1 跨平台工具](#7-1-1-跨平台工具)
-   - [7.2 AI 编程助手（开源/免费）](#7-2-ai-编程助手开源免费)
-     - [7.2.1 跨平台工具](#7-2-1-跨平台工具)
-   - [7.3 AI 命令行工具](#7-3-ai-命令行工具)
-     - [7.3.1 跨平台工具](#7-3-1-跨平台工具)
-   - [7.4 AI 效率工具](#7-4-ai-效率工具)
-     - [7.4.1 跨平台工具](#7-4-1-跨平台工具)
-     - [7.4.2 macOS 专属](#7-4-2-macos-专属)
-8. [开发工具](#8-开发工具)
-   - [8.1 代码编辑器与 IDE](#8-1-代码编辑器与-ide)
-     - [8.1.1 跨平台工具](#8-1-1-跨平台工具)
-     - [8.1.2 macOS 专属](#8-1-2-macos-专属)
-     - [8.1.3 Windows 专属](#8-1-3-windows-专属)
-     - [8.1.4 Linux 专属](#8-1-4-linux-专属)
-   - [8.2 终端与命令行](#8-2-终端与命令行)
-     - [8.2.1 跨平台工具](#8-2-1-跨平台工具)
-     - [8.2.2 macOS 专属](#8-2-2-macos-专属)
-     - [8.2.3 Windows 专属](#8-2-3-windows-专属)
-     - [8.2.4 Linux 专属](#8-2-4-linux-专属)
-   - [8.3 版本控制](#8-3-版本控制)
-     - [8.3.1 跨平台工具](#8-3-1-跨平台工具)
-     - [8.3.2 macOS 专属](#8-3-2-macos-专属)
-     - [8.3.3 Linux 专属](#8-3-3-linux-专属)
-   - [8.4 数据库工具](#8-4-数据库工具)
-     - [8.4.1 跨平台工具](#8-4-1-跨平台工具)
-     - [8.4.2 macOS 专属](#8-4-2-macos-专属)
-     - [8.4.3 Linux 专属](#8-4-3-linux-专属)
-   - [8.5 API 开发与网络分析](#8-5-api-开发与网络分析)
-     - [8.5.1 跨平台工具](#8-5-1-跨平台工具)
-     - [8.5.2 macOS 专属](#8-5-2-macos-专属)
-     - [8.5.3 Linux 专属](#8-5-3-linux-专属)
-9. [命令行工具](#9-命令行工具)
-   - [9.1 终端增强与 Shell 工具](#9-1-终端增强与-shell-工具)
-     - [9.1.1 跨平台工具](#9-1-1-跨平台工具)
-     - [9.1.2 macOS 专属](#9-1-2-macos-专属)
-   - [9.2 开发命令行工具](#9-2-开发命令行工具)
-     - [9.2.1 跨平台工具](#9-2-1-跨平台工具)
-   - [9.3 系统监控与文件操作](#9-3-系统监控与文件操作)
-     - [9.3.1 跨平台工具](#9-3-1-跨平台工具)
-   - [9.4 macOS 专属命令行工具](#9-4-macos-专属命令行工具)
-     - [9.4.1 macOS 专属](#9-4-1-macos-专属)
-   - [9.5 Windows 专属命令行工具](#9-5-windows-专属命令行工具)
-     - [9.5.1 跨平台工具](#9-5-1-跨平台工具)
-     - [9.5.2 Windows 专属](#9-5-2-windows-专属)
+- [免费开源 Linux, Mac, Windows 软件精选合集](#免费开源-linux-mac-windows-软件精选合集)
+  - [目录](#目录)
+  - [1. 系统与实用工具](#1-系统与实用工具)
+    - [1.1 系统监控与清理](#11-系统监控与清理)
+      - [1.1.1 跨平台工具](#111-跨平台工具)
+      - [1.1.2 macOS 专属](#112-macos-专属)
+      - [1.1.3 Windows 专属](#113-windows-专属)
+      - [1.1.4 Linux 专属](#114-linux-专属)
+    - [1.2 文件管理](#12-文件管理)
+      - [1.2.1 跨平台文件管理器](#121-跨平台文件管理器)
+      - [1.2.2 压缩与解压工具](#122-压缩与解压工具)
+      - [1.2.3 macOS 专属](#123-macos-专属)
+      - [1.2.4 Windows 专属](#124-windows-专属)
+      - [1.2.5 Linux 专属](#125-linux-专属)
+    - [1.3 安全与隐私](#13-安全与隐私)
+      - [1.3.1 密码管理](#131-密码管理)
+      - [1.3.2 安全隐私工具](#132-安全隐私工具)
+  - [2. 网络与通讯](#2-网络与通讯)
+    - [2.1 浏览器](#21-浏览器)
+      - [2.1.1 跨平台工具](#211-跨平台工具)
+      - [2.1.2 macOS 专属](#212-macos-专属)
+      - [2.1.3 Linux 专属](#213-linux-专属)
+    - [2.2 下载工具](#22-下载工具)
+      - [2.2.1 跨平台工具](#221-跨平台工具)
+      - [2.2.2 macOS 专属](#222-macos-专属)
+      - [2.2.3 Linux 专属](#223-linux-专属)
+    - [2.3 通讯协作](#23-通讯协作)
+      - [2.3.1 跨平台工具](#231-跨平台工具)
+      - [2.3.2 macOS 专属](#232-macos-专属)
+      - [2.3.3 Linux 专属](#233-linux-专属)
+  - [3. 生产力工具](#3-生产力工具)
+    - [3.1 笔记与知识管理](#31-笔记与知识管理)
+      - [3.1.1 跨平台工具](#311-跨平台工具)
+      - [3.1.2 macOS 专属](#312-macos-专属)
+      - [3.1.3 Linux 专属](#313-linux-专属)
+    - [3.2 待办事项与时间管理](#32-待办事项与时间管理)
+      - [3.2.1 跨平台工具](#321-跨平台工具)
+    - [3.3 剪贴板与效率](#33-剪贴板与效率)
+      - [3.3.1 跨平台工具](#331-跨平台工具)
+      - [3.3.2 macOS 专属](#332-macos-专属)
+      - [3.3.3 Windows 专属](#333-windows-专属)
+      - [3.3.4 Linux 专属](#334-linux-专属)
+    - [3.4 窗口管理](#34-窗口管理)
+      - [3.4.1 macOS 专属](#341-macos-专属)
+      - [3.4.2 Windows 专属](#342-windows-专属)
+      - [3.4.3 Linux 专属](#343-linux-专属)
+  - [4. 设计与媒体](#4-设计与媒体)
+    - [4.1 图像与图形设计](#41-图像与图形设计)
+      - [4.1.1 跨平台工具](#411-跨平台工具)
+      - [4.1.2 macOS 专属](#412-macos-专属)
+      - [4.1.3 Linux 专属](#413-linux-专属)
+    - [4.2 视频与音频](#42-视频与音频)
+      - [4.2.1 跨平台工具](#421-跨平台工具)
+    - [4.3 截图与录屏](#43-截图与录屏)
+      - [4.3.1 跨平台工具](#431-跨平台工具)
+  - [5. 办公与阅读](#5-办公与阅读)
+    - [5.1 办公套件](#51-办公套件)
+      - [5.1.1 跨平台工具](#511-跨平台工具)
+      - [5.1.2 macOS 专属](#512-macos-专属)
+      - [5.1.3 Windows 专属](#513-windows-专属)
+      - [5.1.4 Linux 专属](#514-linux-专属)
+  - [6. Markdown 编辑器](#6-markdown-编辑器)
+    - [6.1 所见即所得（WYSIWYG）编辑器](#61-所见即所得wysiwyg编辑器)
+      - [6.1.1 跨平台工具](#611-跨平台工具)
+      - [6.1.2 macOS 专属](#612-macos-专属)
+    - [6.2 代码优先编辑器](#62-代码优先编辑器)
+      - [6.2.1 跨平台工具](#621-跨平台工具)
+      - [6.2.2 macOS 专属](#622-macos-专属)
+    - [6.3 Markdown 预览与转换工具](#63-markdown-预览与转换工具)
+      - [6.3.1 跨平台工具](#631-跨平台工具)
+      - [6.3.2 macOS 专属](#632-macos-专属)
+  - [7. AI 工具与助手](#7-ai-工具与助手)
+    - [7.1 本地 AI 模型运行工具](#71-本地-ai-模型运行工具)
+      - [7.1.1 跨平台工具](#711-跨平台工具)
+    - [7.2 AI 编程助手（开源/免费）](#72-ai-编程助手开源免费)
+      - [7.2.1 跨平台工具](#721-跨平台工具)
+    - [7.3 AI 命令行工具](#73-ai-命令行工具)
+      - [7.3.1 跨平台工具](#731-跨平台工具)
+    - [7.4 AI 效率工具](#74-ai-效率工具)
+      - [7.4.1 跨平台工具](#741-跨平台工具)
+  - [8. 开发工具](#8-开发工具)
+    - [8.1 代码编辑器与 IDE](#81-代码编辑器与-ide)
+      - [8.1.1 跨平台工具](#811-跨平台工具)
+      - [8.1.2 macOS 专属](#812-macos-专属)
+      - [8.1.3 Windows 专属](#813-windows-专属)
+      - [8.1.4 Linux 专属](#814-linux-专属)
+    - [8.2 终端与命令行](#82-终端与命令行)
+      - [8.2.1 跨平台工具](#821-跨平台工具)
+      - [8.2.2 macOS 专属](#822-macos-专属)
+      - [8.2.3 Windows 专属](#823-windows-专属)
+      - [8.2.4 Linux 专属](#824-linux-专属)
+    - [8.3 版本控制](#83-版本控制)
+      - [8.3.1 跨平台工具](#831-跨平台工具)
+      - [8.3.2 macOS 专属](#832-macos-专属)
+      - [8.3.3 Linux 专属](#833-linux-专属)
+    - [8.4 数据库工具](#84-数据库工具)
+      - [8.4.1 跨平台工具](#841-跨平台工具)
+      - [8.4.2 macOS 专属](#842-macos-专属)
+      - [8.4.3 Linux 专属](#843-linux-专属)
+    - [8.5 API 开发与网络分析](#85-api-开发与网络分析)
+      - [8.5.1 跨平台工具](#851-跨平台工具)
+      - [8.5.2 macOS 专属](#852-macos-专属)
+      - [8.5.3 Linux 专属](#853-linux-专属)
+    - [8.6 开发者实用工具](#86-开发者实用工具)
+      - [8.6.1 跨平台工具](#861-跨平台工具)
+      - [8.6.2 macOS 专属](#862-macos-专属)
+  - [9. 命令行工具](#9-命令行工具)
+    - [9.1 终端增强与 Shell 工具](#91-终端增强与-shell-工具)
+      - [9.1.1 跨平台工具](#911-跨平台工具)
+      - [9.1.2 macOS 专属](#912-macos-专属)
+    - [9.2 开发命令行工具](#92-开发命令行工具)
+      - [9.2.1 跨平台工具](#921-跨平台工具)
+    - [9.3 系统监控与文件操作](#93-系统监控与文件操作)
+      - [9.3.1 跨平台工具](#931-跨平台工具)
+    - [9.4 macOS 专属命令行工具](#94-macos-专属命令行工具)
+      - [9.4.1 macOS 专属](#941-macos-专属)
+    - [9.5 Windows 专属命令行工具](#95-windows-专属命令行工具)
+      - [9.5.1 跨平台工具](#951-跨平台工具)
+      - [9.5.2 Windows 专属](#952-windows-专属)
+  - [说明](#说明)
 
 ---
 
@@ -467,7 +470,11 @@
 | **Alfred** | 启动器与自动化工具（免费版功能有限） | [官网](https://www.alfredapp.com/) | mac |
 | **Clipy** | 基于 ClipMenu 的剪贴板扩展应用 | [GitHub](https://github.com/Clipy/Clipy) / [官网](https://clipy-app.com/) | mac |
 | **Flycut** | 面向开发者的简洁剪贴板管理器 | [GitHub](https://github.com/TermiT/Flycut) | mac |
+| **Itsypad** | 小巧快速的 macOS 草稿本和剪贴板管理器 | [App Store](https://apps.apple.com/app/itsypad/id1585746886) | mac |
+| **Keyboard Maestro** | 用触发器和宏自动执行重复操作 | [官网](https://www.keyboardmaestro.com/) | mac |
+| **Keytty** | 让你通过键盘使用鼠标 | [官网](https://keytty.com/) | mac |
 | **Maccy** | 轻量级 macOS 剪贴板管理器 | [GitHub](https://github.com/p0deje/Maccy) / [官网](https://maccy.app/) | mac |
+| **Mos** | 让鼠标滚轮丝滑如触控板 | [GitHub](https://github.com/Caldis/Mos) / [官网](https://mos.right) | mac |
 | **Pure Paste** | 默认粘贴为纯文本 | [App Store](https://apps.apple.com/app/id1611378436) | mac |
 | **Quicksilver** | 快速优雅控制 Mac | [GitHub](https://github.com/quicksilver/Quicksilver) / [官网](https://qsapp.com/) | mac |
 | **Raycast** | 现代启动器与命令面板（免费版） | [官网](https://raycast.com) | mac |
@@ -557,6 +564,7 @@
 | **Scribus** | 专业排版与出版软件 | [官网](https://www.scribus.net/) | linux, mac, win |
 | **XnView MP** | 强大的多媒体查看器、浏览器和转换器 | [官网](https://www.xnview.com/en/xnviewmp/) | linux, mac, win |
 | **Lunacy** | 内置资源的矢量设计工具（免费版） | [官网](https://icons8.com/lunacy) | mac, win |
+| **PicGo** | 支持常用 CDN 的图床工具 | [GitHub](https://github.com/Molunerfinn/PicGo) / [官网](https://picgo.github.io/) | mac, win |
 | **SketchBook** | 概念设计与数字素描（免费版） | [官网](https://www.sketchbook.com/) | mac, win |
 
 <a id="4-1-2-macos-专属"></a>
@@ -572,6 +580,7 @@
 | **ScreenToLayers** | 将屏幕导出为分层 PSD | [GitHub](https://github.com/duyquoc/ScreenToLayers) / [App Store](https://apps.apple.com/app/screentolayers/id1077317077) | mac |
 | **System Color Picker** | 功能增强的 macOS 颜色选择器 | [GitHub](https://github.com/sindresorhus/System-Color-Picker) / [App Store](https://apps.apple.com/app/id1545870783) | mac |
 | **TinyPNG4Mac** | 图片压缩工具 | [GitHub](https://github.com/kyleduo/TinyPNG4Mac) | mac |
+| **uPic** | macOS 原生图床客户端，功能强大且简洁 | [GitHub](https://github.com/gee1k/uPic) / [官网](https://upic.app/) | mac |
 
 <a id="4-1-3-linux-专属"></a>
 #### 4.1.3 Linux 专属
@@ -840,8 +849,10 @@
 | **Android Studio** | 官方 Android 开发 IDE | [GitHub](https://github.com/android) / [官网](https://developer.android.com/studio) | linux, mac, win |
 | **Atom** | GitHub 开发的开源编辑器（已停止维护） | [GitHub](https://github.com/atom/atom) | linux, mac, win |
 | **Brackets** | 专为 Web 设计打造的开源编辑器 | [GitHub](https://github.com/brackets-cont/brackets/) / [官网](http://brackets.io) | linux, mac, win |
+| **CLion** | JetBrains 出品的 C/C++ IDE（学生免费） | [官网](https://www.jetbrains.com/clion/) | linux, mac, win |
 | **Eclipse** | 老牌开源 IDE，Java 开发首选 | [GitHub](https://github.com/eclipse) / [官网](https://www.eclipse.org) | linux, mac, win |
 | **Emacs** | 经典的 Unix 文本编辑器，可扩展为 IDE | [GitHub](https://git.savannah.gnu.org/cgit/) / [官网](https://www.gnu.org/software/emacs/) | linux, mac, win |
+| **GoLand** | JetBrains 出品的 Go 开发 IDE | [官网](https://www.jetbrains.com/go/) | linux, mac, win |
 | **Helix** | 后现代模态文本编辑器，类似 Vim | [GitHub](https://github.com/helix-editor/helix/) / [官网](https://helix-editor.com/) | linux, mac, win |
 | **IntelliJ IDEA Community** | JetBrains 出品的 Java IDE 社区免费版 | [官网](https://www.jetbrains.com/idea/) | linux, mac, win |
 | **Lapce** | 基于 Rust 的闪电般快速代码编辑器 | [GitHub](https://github.com/lapce/lapce) / [官网](https://lapce.dev/) | linux, mac, win |
@@ -853,9 +864,11 @@
 | **Sublime Text** | 高级文本编辑器（评估版无限期使用） | [官网](https://www.sublimetext.com/) | linux, mac, win |
 | **Visual Studio Code** | 微软出品的免费开源编辑器，支持丰富插件生态 | [GitHub](https://github.com/Microsoft/vscode) / [官网](https://code.visualstudio.com/) | linux, mac, win |
 | **VSCodium** | VS Code 的社区驱动无追踪版本 | [GitHub](https://github.com/vscodium/vscodium) / [官网](https://vscodium.com/) | linux, mac, win |
+| **WebStorm** | JetBrains 出品的 JavaScript/TypeScript IDE（学生免费） | [官网](https://www.jetbrains.com/webstorm/) | linux, mac, win |
 | **Zed** | 高性能多人协作代码编辑器，由 Atom 原作者开发 | [GitHub](https://github.com/zed-industries/zed) / [官网](https://zed.dev/) | linux, mac, win |
 | **Code::Blocks** | C/C++ 开源 IDE | [官网](http://www.codeblocks.org/) | linux, win |
 | **Geany** | 轻量级跨平台 IDE | [GitHub](https://github.com/geany/geany) / [官网](https://www.geany.org/) | linux, win |
+| **HBuilder** | DCloud 推出的支持 HTML5 的 Web 开发 IDE | [官网](https://www.dcloud.io/) | mac, win |
 
 <a id="8-1-2-macos-专属"></a>
 #### 8.1.2 macOS 专属
@@ -863,8 +876,13 @@
 |------|------|---------------|------|
 | **CodeEdit** | 专为 macOS 打造的轻量原生编辑器 | [GitHub](https://github.com/CodeEditApp/CodeEdit) / [官网](https://www.codeedit.app/) | mac |
 | **CotEditor** | 轻量级 macOS 原生纯文本编辑器 | [GitHub](https://github.com/coteditor/CotEditor/) / [官网](https://coteditor.com) | mac |
+| **Haystack Editor** | 结合简洁代码编辑和画布 UI，提升代码理解 | [GitHub](https://github.com/haystack-editor/haystack) | mac |
 | **LiteEdit** | Swift 与 AppKit 构建的轻量编辑器，体积不足 1MB | [GitHub](https://github.com/arietan/lite-edit) / [官网](https://arietan.github.io/lite-edit/) | mac |
+| **Nimbalyst** | 管理 AI 编码会话、任务和项目文件的可视化工作区 | [官网](https://nimbalyst.com/) | mac |
+| **SubEthaEdit** | 支持写作、编程、协作的强大编辑器 | [GitHub](https://github.com/codingfriends/subethaedit) | mac |
 | **TextMate** | 将 macOS 理念带入编辑器世界的经典工具 | [GitHub](https://github.com/textmate/textmate) / [官网](https://macromates.com) | mac |
+| **Tincta** | 免费跨平台文本编辑器 | [GitHub](https://github.com/Coder0829/Tincta) / [官网](https://tincta.app) | mac |
+| **Vimr** | Neovim macOS GUI，用 Swift 编写 | [GitHub](https://github.com/qvacua/vimr) / [官网](https://vimr.org/) | mac |
 | **Xcode** | Apple 官方 iOS/macOS 开发环境 | [App Store](https://apps.apple.com/app/id497799835) | mac |
 
 <a id="8-1-3-windows-专属"></a>
@@ -892,11 +910,13 @@
 | **Alacritty** | 跨平台 GPU 加速终端模拟器 | [GitHub](https://github.com/jwilm/alacritty) / [官网](https://alacritty.org) | linux, mac, win |
 | **Hyper** | 基于 Web 技术构建的终端 | [GitHub](https://github.com/zeit/hyper) / [官网](https://hyper.is) | linux, mac, win |
 | **Tabby** | 现代化终端工具，支持 SSH 和 SFTP | [GitHub](https://github.com/Eugeny/tabby) / [官网](https://tabby.sh) | linux, mac, win |
-| **Terminus** | 现代化的终端模拟器（原 Terminus） | [GitHub](https://github.com/Eugeny/terminus) | linux, mac, win |
+| **Termius** | 跨平台终端工具，可与 xshell 媲美 | [官网](https://termius.com/) | linux, mac, win |
+| **Warp** | 闪电般快速的 Rust 终端 | [GitHub](https://github.com/warpdotdev) / [官网](https://warp.dev/) | linux, mac, win |
 | **Wave** | 内置文件预览和 AI 工具的终端 | [GitHub](https://github.com/wavetermdev/waveterm) / [官网](https://www.waveterm.dev) | linux, mac, win |
 | **WezTerm** | Rust 实现的 GPU 加速跨平台终端 | [GitHub](https://github.com/wez/wezterm) / [官网](https://wezfurlong.org/wezterm/) | linux, mac, win |
 | **Ghostty** | 高速 GPU 加速终端，支持原生 UI | [GitHub](https://github.com/ghostty-org/ghostty) / [官网](https://ghostty.org) | linux, mac |
 | **Kitty** | 功能丰富的 GPU 终端模拟器 | [GitHub](https://github.com/kovidgoyal/kitty) / [官网](https://sw.kovidgoyal.net/kitty/) | linux, mac |
+| **SecureCRT** | 支持 SSH、Telnet 等多种协议的终端仿真程序 | [官网](https://www.vandyke.com/products/securecrt/) | mac, win |
 
 <a id="8-2-2-macos-专属"></a>
 #### 8.2.2 macOS 专属
@@ -960,15 +980,18 @@
 |------|------|---------------|------|
 | **Beekeeper Studio** | 流畅的 SQL 编辑器与数据库管理器，界面现代优雅 | [GitHub](https://github.com/beekeeper-studio/beekeeper-studio) / [官网](https://www.beekeeperstudio.io) | linux, mac, win |
 | **Chat2DB** | AI 驱动的开源数据库管理工具，支持自然语言转 SQL | [GitHub](https://github.com/codePhiliaX/Chat2DB) / [官网](https://chat2db.ai/zh-CN) | linux, mac, win |
+| **DataGrip** | JetBrains 数据库 IDE（有学生免费版） | [官网](https://www.jetbrains.com/datagrip/) | linux, mac, win |
 | **DB Browser for SQLite** | SQLite 数据库的官方可视化管理工具 | [GitHub](https://github.com/sqlitebrowser/sqlitebrowser) / [官网](http://sqlitebrowser.org/) | linux, mac, win |
 | **DBeaver** | 通用 SQL 客户端和数据库管理工具，支持 100+ 种数据库 | [GitHub](https://github.com/dbeaver/dbeaver) / [官网](https://dbeaver.io/) | linux, mac, win |
 | **MongoDB Compass** | MongoDB 官方 GUI | [官网](https://www.mongodb.com/products/compass) | linux, mac, win |
 | **MySQL Workbench** | 官方 MySQL 管理工具 | [官网](https://www.mysql.com/products/workbench/) | linux, mac, win |
 | **Neo4j Desktop** | 领先的图数据库管理工具 | [GitHub](https://github.com/neo4j/neo4j) / [官网](https://neo4j.com) | linux, mac, win |
+| **pgModeler** | PostgreSQL 开源数据建模工具 | [GitHub](https://github.com/pgmodeler/pgmodeler) / [官网](https://pgmodeler.dev/) | mac, linux, win |
 | **Rainfrog** | 轻量级终端数据库管理 TUI，支持 Vim 键位 | [GitHub](https://github.com/achristmascarl/rainfrog) | linux, mac, win |
 | **Redis Insight** | Redis 官方可视化浏览与调试工具 | [官网](https://redis.io/insight/) | linux, mac, win |
 | **TablePlus** | 现代原生数据库管理工具（免费版有限制） | [官网](https://tableplus.com/) | linux, mac, win |
 | **TablePro** | AI 辅助的 SQL 编辑器 | [GitHub](https://github.com/datlechin/TablePro) | linux, mac, win |
+| **RedisDesktopManager** | Redis 跨平台的 GUI 管理工具 | [GitHub](https://github.com/RedisDesktopManager/redis-desktop-manager) | mac, win |
 
 <a id="8-4-2-macos-专属"></a>
 #### 8.4.2 macOS 专属
@@ -977,6 +1000,8 @@
 | **Postgres.app** | macOS 最简单的 PostgreSQL 入门方式 | [GitHub](https://github.com/PostgresApp/PostgresApp) / [官网](http://postgresapp.com/) | mac |
 | **Sequel Ace** | MySQL 与 MariaDB 数据库管理工具 | [GitHub](https://github.com/Sequel-Ace/Sequel-Ace) / [官网](https://sequel-ace.com/) | mac |
 | **Sequel Pro** | 经典的 macOS MySQL 管理工具 | [GitHub](https://github.com/sequelpro/sequelpro) / [官网](http://www.sequelpro.com/) | mac |
+| **SQLight** | 简洁的 SQLite 数据库管理器 | [官网](https://www.sqlight.com/) | mac |
+| **PSequel** | PostgreSQL 数据库 GUI 软件 | [官网](https://www.psequel.com/) | mac |
 
 <a id="8-4-3-linux-专属"></a>
 #### 8.4.3 Linux 专属
@@ -1001,18 +1026,44 @@
 | **Sniffnet** | 舒适监控网络流量的应用 | [GitHub](https://github.com/GyulyVGC/sniffnet) / [官网](https://www.sniffnet.net) | linux, mac, win |
 | **Wireshark** | 全球最流行的网络协议分析器 | [GitHub](https://github.com/wireshark/wireshark) / [官网](https://www.wireshark.org) | linux, mac, win |
 | **Yaak** | 现代 API 客户端，支持多协议和 Git 集成 | [GitHub](https://github.com/mountain-loop/yaak) / [官网](https://yaak.app) | linux, mac, win |
+| **Charles** | Web 调试代理工具 | [官网](https://www.charlesproxy.com/) | mac, win |
 
 <a id="8-5-2-macos-专属"></a>
 #### 8.5.2 macOS 专属
 | 软件 | 简介 | 获取 / 下载 地址 | 支持平台 |
 |------|------|---------------|------|
 | **Proxyman** | 现代直观的 HTTP 调试代理 | [官网](https://proxyman.app) | mac |
+| **Paw** | 全面的 HTTP 客户端 | [官网](https://paw.cloud/) | mac |
 
 <a id="8-5-3-linux-专属"></a>
 #### 8.5.3 Linux 专属
 | 软件 | 简介 | 获取 / 下载 地址 | 支持平台 |
 |------|------|---------------|------|
 | **TCPDump** | 命令行网络分析工具 | [官网](https://www.tcpdump.org/) | linux |
+
+<a id="8-6-开发者实用工具"></a>
+### 8.6 开发者实用工具
+
+<a id="8-6-1-跨平台工具"></a>
+#### 8.6.1 跨平台工具
+| 软件 | 简介 | 获取 / 下载 地址 | 支持平台 |
+|------|------|---------------|------|
+| **uTools** | 基于插件的程序员效率工具，包含图床、UUID、密码、翻译等插件 | [官网](https://u.tools/) | linux, mac, win |
+| **Vagrant** | 构建虚拟开发环境的工具 | [GitHub](https://github.com/hashicorp/vagrant) / [官网](https://www.vagrantup.com/) | linux, mac, win |
+| **He3** | 免费智能的开发者万能工具箱 | [官网](https://he3.app/) | mac, win |
+| **zeplin** | 前端与设计协同工作专用工具 | [官网](https://zeplin.io/) | mac, win |
+
+<a id="8-6-2-macos-专属"></a>
+#### 8.6.2 macOS 专属
+| 软件 | 简介 | 获取 / 下载 地址 | 支持平台 |
+|------|------|---------------|------|
+| **SnippetsLab** | 管理和组织代码片段 | [App Store](https://apps.apple.com/app/snippetslab/id1086036993) | mac |
+| **SSH Keys Manager** | 管理本地 SSH 密钥和 Git 身份 | [GitHub](https://github.com/quitshot/ssh-keys-manager) | mac |
+| **StarUML** | 强大的软件建模工具 | [官网](https://staruml.io/) | mac |
+| **Switzy** | 切换 Git 身份并管理 SSH 密钥 | [GitHub](https://github.com/macacoo/switzy) | mac |
+| **Swiftify** | Xcode ＆ Finder 扩展 Objective-C 转 Swift 代码转换器 | [官网](https://objective.tools/) | mac |
+| **TeXstudio** | 集成创建 LaTeX 文档的写作环境 | [GitHub](https://github.com/TeXstudio/TeXstudio) / [官网](https://www.texstudio.org/) | mac |
+| **Woodpecker** | 在 Mac 上查看、编辑 iOS App 的沙盒文件、UserDefaults、Keychain | [App Store](https://apps.apple.com/app/woodpecker/id1330642468) | mac |
 
 <a id="9-命令行工具"></a>
 ## 9. 命令行工具
