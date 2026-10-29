@@ -511,6 +511,7 @@
 | **DockDoor** | 免费开源的窗口预览与 Alt-Tab | [GitHub](https://github.com/ejbills/DockDoor) / [官网](https://dockdoor.net) | mac |
 | **Hummingbird** | 无需点击标题栏即可移动调整窗口 | [GitHub](https://github.com/finestructure/Hummingbird) | mac |
 | **Loop** | 优雅的窗口管理工具 | [GitHub](https://github.com/MrKai77/Loop) | mac |
+| **LayoutKeeper** | 外接屏插拔后恢复窗口与多桌面布局，支持亮度跟随与防休眠 | [GitHub](https://github.com/tumingke0/LayoutKeeper) | mac |
 | **Rectangle** | 基于 Spectacle 的窗口管理应用 | [GitHub](https://github.com/rxhanson/Rectangle) / [官网](https://rectangleapp.com/) | mac |
 | **ShiftIt** | 管理窗口大小和位置 | [GitHub](https://github.com/fikovnik/ShiftIt) | mac |
 | **Swift Shift** | 快捷键移动和调整窗口大小 | [GitHub](https://github.com/pablopunk/swiftshift) | mac |
