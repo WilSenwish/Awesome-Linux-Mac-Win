@@ -1179,6 +1179,7 @@
 | **brew-cask-upgrade** | Homebrew Cask 升级工具 | [GitHub](https://github.com/buo/homebrew-cask-upgrade) | mac |
 | **do-not-disturb-cli** | 命令行控制 macOS 勿扰模式 | [GitHub](https://github.com/sindresorhus/do-not-disturb-cli) | mac |
 | **dockutil** | 命令行管理 Dock | [GitHub](https://github.com/kcrawford/dockutil) | mac |
+| **Kilobat CLI** | macOS 网络诊断与监控命令行工具，支持 JSON 输出和本地 MCP | [GitHub](https://github.com/seifip/kilobat-cli) | mac |
 | **launchrocket** | 管理 Homebrew 服务 | [GitHub](https://github.com/jimbojsb/launchrocket) | mac |
 | **mac-cli** | macOS 实用命令集合 | [GitHub](https://github.com/guarinogabriel/mac-cli) | mac |
 | **macOS-defaults** | macOS 系统设置命令集合 | [GitHub](https://github.com/kevinSuttle/macOS-defaults) | mac |
