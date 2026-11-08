@@ -524,6 +524,7 @@
 | **AquaSnap** | 窗口贴靠和管理工具（免费版） | [官网](https://www.nurgo-software.com/products/aquasnap) | win |
 | **AutoHotkey** | Windows 自动化脚本工具，可自定义窗口管理 | [GitHub](https://github.com/AutoHotkey/AutoHotkey) / [官网](https://www.autohotkey.com/) | win |
 | **DisplayFusion** | 多显示器管理工具（免费版） | [官网](https://www.binaryfortress.com/DisplayFusion/) | win |
+| **LatchLayout** | 长按自定义按键或鼠标按钮，启动应用、浏览器配置文件及网址，并按显示器布局排列窗口（预览版） | [GitHub](https://github.com/stanczykwyatt/latchlayout) | Windows 11 x64 |
 | **OnTopReplica** | 将窗口置顶显示的小工具 | [GitHub](https://github.com/LorenzCK/OnTopReplica) | win |
 | **PowerToys FancyZones** | Microsoft 官方窗口布局工具 | [GitHub](https://github.com/microsoft/PowerToys) / [官网](https://learn.microsoft.com/windows/powertoys/) | win |
 | **WindowManager** | 开源窗口管理工具 | [GitHub](https://github.com/Codeusa/Borderless-Gaming) | win |
