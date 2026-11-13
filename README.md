@@ -772,6 +772,7 @@
 | 软件 | 简介 | 获取 / 下载 地址 | 支持平台 |
 |------|------|---------------|------|
 | **MacDown** | 开源 Markdown 编辑器，灵感来自 Mou | [GitHub](https://github.com/MacDownApp/macdown) / [官网](https://macdown.uranusjr.com/) | mac |
+| **Glim** | MIT 开源文件查看器，支持 Markdown 图表和公式预览、源码及数据文件查看，以及普通 UTF-8 文本的基础编辑 | [GitHub](https://github.com/NeoPanic/Glim) / [下载](https://github.com/NeoPanic/Glim/releases/latest) | mac |
 
 <a id="7-ai-工具与助手"></a>
 ## 7. AI 工具与助手
